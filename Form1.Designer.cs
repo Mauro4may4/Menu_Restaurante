@@ -19,7 +19,8 @@ namespace Menu_Restaurante
             {
                 components.Dispose();
             }
-            base.Dispose(disposing);
+            base.Dispose(disposing);//O
+
         }
 
         #region Código generado por el Diseñador de Windows Forms
