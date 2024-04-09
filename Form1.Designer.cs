@@ -19,7 +19,7 @@ namespace Menu_Restaurante
             {
                 components.Dispose();
             }
-            base.Dispose(disposing);//O
+            base.Dispose(disposing);
 
         }
 
