@@ -20,7 +20,7 @@ namespace Menu_Restaurante
                 components.Dispose();
             }
             base.Dispose(disposing);
-            //Borrar
+            //Borrar 1
             Console.WriteLine("HOLA");
         }
 
