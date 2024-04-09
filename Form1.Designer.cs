@@ -1,4 +1,6 @@
-﻿namespace Menu_Restaurante
+﻿using System;
+
+namespace Menu_Restaurante
 {
     partial class Form1
     {
@@ -18,6 +20,8 @@
                 components.Dispose();
             }
             base.Dispose(disposing);
+            //Borrar
+            Console.WriteLine("HOLA");
         }
 
         #region Código generado por el Diseñador de Windows Forms
@@ -67,6 +71,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        
     }
 }
 
