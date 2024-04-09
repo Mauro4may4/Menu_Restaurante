@@ -20,8 +20,6 @@ namespace Menu_Restaurante
                 components.Dispose();
             }
             base.Dispose(disposing);
-            //Borrar
-            Console.WriteLine("HOLA");
         }
 
         #region Código generado por el Diseñador de Windows Forms
