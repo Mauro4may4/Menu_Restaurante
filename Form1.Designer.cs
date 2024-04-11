@@ -37,9 +37,7 @@ namespace Menu_Restaurante
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.PanelPrincipal = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.PanelSuperior.SuspendLayout();
-            this.PanelPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelSuperior
@@ -97,22 +95,12 @@ namespace Menu_Restaurante
             // 
             // PanelPrincipal
             // 
-            this.PanelPrincipal.Controls.Add(this.panel3);
             this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelPrincipal.Location = new System.Drawing.Point(215, 69);
             this.PanelPrincipal.Name = "PanelPrincipal";
             this.PanelPrincipal.Size = new System.Drawing.Size(748, 391);
             this.PanelPrincipal.TabIndex = 5;
             this.PanelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelPrincipal_Paint);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 100);
-            this.panel3.TabIndex = 0;
             // 
             // Form1
             // 
@@ -127,7 +115,6 @@ namespace Menu_Restaurante
             this.Text = "Form1";
             this.PanelSuperior.ResumeLayout(false);
             this.PanelSuperior.PerformLayout();
-            this.PanelPrincipal.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -139,7 +126,6 @@ namespace Menu_Restaurante
         private System.Windows.Forms.Panel PanelPrincipal;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel3;
     }
 }
 
