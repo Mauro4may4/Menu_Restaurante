@@ -32,12 +32,14 @@ namespace Menu_Restaurante
         private void InitializeComponent()
         {
             this.PanelSuperior = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.PanelPrincipal = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.PanelSuperior.SuspendLayout();
+            this.PanelPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelSuperior
@@ -51,6 +53,29 @@ namespace Menu_Restaurante
             this.PanelSuperior.Size = new System.Drawing.Size(963, 69);
             this.PanelSuperior.TabIndex = 2;
             this.PanelSuperior.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(149)))), ((int)(((byte)(24)))));
+            this.label2.Location = new System.Drawing.Point(80, 33);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 24);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Restaurant";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(149)))), ((int)(((byte)(24)))));
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(113, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Eggscellent ";
             // 
             // panel1
             // 
@@ -72,34 +97,22 @@ namespace Menu_Restaurante
             // 
             // PanelPrincipal
             // 
+            this.PanelPrincipal.Controls.Add(this.panel3);
             this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelPrincipal.Location = new System.Drawing.Point(215, 69);
             this.PanelPrincipal.Name = "PanelPrincipal";
             this.PanelPrincipal.Size = new System.Drawing.Size(748, 391);
             this.PanelPrincipal.TabIndex = 5;
+            this.PanelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelPrincipal_Paint);
             // 
-            // label1
+            // panel3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(149)))), ((int)(((byte)(24)))));
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Eggscellent ";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(149)))), ((int)(((byte)(24)))));
-            this.label2.Location = new System.Drawing.Point(80, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 24);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Restaurant";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(200, 100);
+            this.panel3.TabIndex = 0;
             // 
             // Form1
             // 
@@ -114,6 +127,7 @@ namespace Menu_Restaurante
             this.Text = "Form1";
             this.PanelSuperior.ResumeLayout(false);
             this.PanelSuperior.PerformLayout();
+            this.PanelPrincipal.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -125,6 +139,7 @@ namespace Menu_Restaurante
         private System.Windows.Forms.Panel PanelPrincipal;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 

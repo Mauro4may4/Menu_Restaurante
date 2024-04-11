@@ -36,5 +36,10 @@ namespace Menu_Restaurante
         {
 
         }
+
+        private void PanelPrincipal_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
