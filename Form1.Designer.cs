@@ -37,12 +37,14 @@ namespace Menu_Restaurante
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.PanelPrincipal = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.PanelSuperior.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelSuperior
             // 
             this.PanelSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(25)))), ((int)(((byte)(2)))));
+            this.PanelSuperior.Controls.Add(this.groupBox1);
             this.PanelSuperior.Controls.Add(this.label2);
             this.PanelSuperior.Controls.Add(this.label1);
             this.PanelSuperior.Dock = System.Windows.Forms.DockStyle.Top;
@@ -102,6 +104,16 @@ namespace Menu_Restaurante
             this.PanelPrincipal.TabIndex = 5;
             this.PanelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelPrincipal_Paint);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Location = new System.Drawing.Point(3, 56);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(203, 10);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -126,6 +138,7 @@ namespace Menu_Restaurante
         private System.Windows.Forms.Panel PanelPrincipal;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
