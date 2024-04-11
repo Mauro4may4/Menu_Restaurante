@@ -36,13 +36,13 @@ namespace Menu_Restaurante
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.PanelPrincipal = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.BotonCombos = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.PanelPrincipal = new System.Windows.Forms.Panel();
             this.PanelSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -96,24 +96,6 @@ namespace Menu_Restaurante
             this.panel1.Size = new System.Drawing.Size(215, 450);
             this.panel1.TabIndex = 3;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Silver;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(215, 460);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(748, 53);
-            this.panel2.TabIndex = 4;
-            // 
-            // PanelPrincipal
-            // 
-            this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelPrincipal.Location = new System.Drawing.Point(215, 63);
-            this.PanelPrincipal.Name = "PanelPrincipal";
-            this.PanelPrincipal.Size = new System.Drawing.Size(748, 397);
-            this.PanelPrincipal.TabIndex = 5;
-            this.PanelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelPrincipal_Paint);
-            // 
             // button4
             // 
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -127,7 +109,7 @@ namespace Menu_Restaurante
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(193, 74);
             this.button4.TabIndex = 9;
-            this.button4.Text = "    Combos";
+            this.button4.Text = "    Ajustes";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = true;
@@ -145,7 +127,7 @@ namespace Menu_Restaurante
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(193, 74);
             this.button3.TabIndex = 8;
-            this.button3.Text = "    Combos";
+            this.button3.Text = "    Postres";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
@@ -163,10 +145,11 @@ namespace Menu_Restaurante
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(193, 74);
             this.button2.TabIndex = 7;
-            this.button2.Text = "    Combos";
+            this.button2.Text = "    Bebidas";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -181,10 +164,11 @@ namespace Menu_Restaurante
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(193, 74);
             this.button1.TabIndex = 6;
-            this.button1.Text = "    Combos";
+            this.button1.Text = "   Comidas";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // BotonCombos
             // 
@@ -203,6 +187,24 @@ namespace Menu_Restaurante
             this.BotonCombos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BotonCombos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BotonCombos.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(215, 460);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(748, 53);
+            this.panel2.TabIndex = 4;
+            // 
+            // PanelPrincipal
+            // 
+            this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelPrincipal.Location = new System.Drawing.Point(215, 63);
+            this.PanelPrincipal.Name = "PanelPrincipal";
+            this.PanelPrincipal.Size = new System.Drawing.Size(748, 397);
+            this.PanelPrincipal.TabIndex = 5;
+            this.PanelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelPrincipal_Paint);
             // 
             // Form1
             // 
