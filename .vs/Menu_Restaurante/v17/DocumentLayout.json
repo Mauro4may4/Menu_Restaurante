@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\sotou\\source\\repos\\menu_restaurante\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,9 +50,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAACUAAAAJAAAA",
+              "ToolTip": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AQIAACEAAAAAAAAAAAAEwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T21:06:39.499Z",
               "EditorCaption": ""
@@ -63,11 +63,12 @@
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.Designer.cs*",
+              "RelativeToolTip": "Form1.Designer.cs*",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T04:21:15.684Z"
+              "WhenOpened": "2024-04-09T04:21:15.684Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,8 +76,8 @@
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T21:59:32.201Z",
               "EditorCaption": " [Dise\u00F1o]"
