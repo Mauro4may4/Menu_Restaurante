@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Menu_Restaurante
 {
-    public partial class Form1 : Form
+    public partial class BaseForm : Form
     {
-        public Form1()
+        public BaseForm()
         {
             InitializeComponent();
         }
@@ -42,9 +42,23 @@ namespace Menu_Restaurante
 
         }
 
+        //Boton Combos
         private void button1_Click(object sender, EventArgs e)
         {
+            AbrirFormHijo(new Panel());
+        }
 
+        //Funcion para llamar objeto
+        private void AbrirFormHijo(object formhija)
+        {
+            if (this.PanelPrincipal.Controls.Count > 0)
+                this.PanelPrincipal.Controls.RemoveAt(0);
+            Form fh = formhija as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.PanelPrincipal.Controls.Add(fh);
+            this.PanelPrincipal.Tag = fh;
+            fh.Show();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -58,6 +72,16 @@ namespace Menu_Restaurante
         }
 
         private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
 
         }

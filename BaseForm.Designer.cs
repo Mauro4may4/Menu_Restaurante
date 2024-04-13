@@ -2,7 +2,7 @@
 
 namespace Menu_Restaurante
 {
-    partial class Form1
+    partial class BaseForm
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -31,7 +31,7 @@ namespace Menu_Restaurante
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaseForm));
             this.PanelSuperior = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -115,6 +115,7 @@ namespace Menu_Restaurante
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -134,6 +135,7 @@ namespace Menu_Restaurante
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -177,6 +179,7 @@ namespace Menu_Restaurante
             // 
             // BotonCombos
             // 
+            this.BotonCombos.AccessibleName = "a";
             this.BotonCombos.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.BotonCombos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BotonCombos.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
@@ -213,7 +216,7 @@ namespace Menu_Restaurante
             this.PanelPrincipal.TabIndex = 5;
             this.PanelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelPrincipal_Paint);
             // 
-            // Form1
+            // BaseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -222,7 +225,7 @@ namespace Menu_Restaurante
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.PanelSuperior);
-            this.Name = "Form1";
+            this.Name = "BaseForm";
             this.Text = "Form1";
             this.PanelSuperior.ResumeLayout(false);
             this.PanelSuperior.PerformLayout();

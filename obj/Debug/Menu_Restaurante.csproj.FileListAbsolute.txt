@@ -2,7 +2,6 @@ C:\Users\mauro\Desktop\Menu_Restaurante\bin\Debug\Menu_Restaurante.exe.config
 C:\Users\mauro\Desktop\Menu_Restaurante\bin\Debug\Menu_Restaurante.exe
 C:\Users\mauro\Desktop\Menu_Restaurante\bin\Debug\Menu_Restaurante.pdb
 C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.csproj.AssemblyReference.cache
-C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.Form1.resources
 C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.Properties.Resources.resources
 C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.csproj.GenerateResource.cache
 C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.csproj.CoreCompileInputs.cache
@@ -18,3 +17,5 @@ C:\Users\sotou\source\repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.csproj.G
 C:\Users\sotou\source\repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.csproj.CoreCompileInputs.cache
 C:\Users\sotou\source\repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.exe
 C:\Users\sotou\source\repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.pdb
+C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.BaseForm.resources
+C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.VentanaCombos.resources
