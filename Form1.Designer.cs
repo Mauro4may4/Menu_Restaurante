@@ -49,7 +49,7 @@ namespace Menu_Restaurante
             // 
             // PanelSuperior
             // 
-            this.PanelSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.PanelSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(25)))), ((int)(((byte)(2)))));
             this.PanelSuperior.Controls.Add(this.label2);
             this.PanelSuperior.Controls.Add(this.label1);
             this.PanelSuperior.Dock = System.Windows.Forms.DockStyle.Top;
@@ -63,7 +63,7 @@ namespace Menu_Restaurante
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(149)))), ((int)(((byte)(24)))));
             this.label2.Location = new System.Drawing.Point(80, 28);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 24);
@@ -75,7 +75,7 @@ namespace Menu_Restaurante
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(149)))), ((int)(((byte)(24)))));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 24);
@@ -84,7 +84,7 @@ namespace Menu_Restaurante
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -105,7 +105,7 @@ namespace Menu_Restaurante
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(25)))), ((int)(((byte)(2)))));
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.Location = new System.Drawing.Point(11, 317);
             this.button4.Name = "button4";
@@ -124,7 +124,7 @@ namespace Menu_Restaurante
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(25)))), ((int)(((byte)(2)))));
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.Location = new System.Drawing.Point(11, 238);
             this.button3.Name = "button3";
@@ -143,7 +143,7 @@ namespace Menu_Restaurante
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(25)))), ((int)(((byte)(2)))));
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.Location = new System.Drawing.Point(12, 163);
             this.button2.Name = "button2";
@@ -163,7 +163,7 @@ namespace Menu_Restaurante
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(25)))), ((int)(((byte)(2)))));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.Location = new System.Drawing.Point(12, 89);
             this.button1.Name = "button1";
@@ -183,9 +183,9 @@ namespace Menu_Restaurante
             this.BotonCombos.FlatAppearance.BorderSize = 0;
             this.BotonCombos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonCombos.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonCombos.ForeColor = System.Drawing.Color.Black;
+            this.BotonCombos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(25)))), ((int)(((byte)(2)))));
             this.BotonCombos.Image = ((System.Drawing.Image)(resources.GetObject("BotonCombos.Image")));
-            this.BotonCombos.Location = new System.Drawing.Point(16, 13);
+            this.BotonCombos.Location = new System.Drawing.Point(12, 13);
             this.BotonCombos.Name = "BotonCombos";
             this.BotonCombos.Size = new System.Drawing.Size(193, 70);
             this.BotonCombos.TabIndex = 5;
@@ -197,11 +197,11 @@ namespace Menu_Restaurante
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.DimGray;
+            this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(215, 460);
+            this.panel2.Location = new System.Drawing.Point(215, 466);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(748, 53);
+            this.panel2.Size = new System.Drawing.Size(748, 47);
             this.panel2.TabIndex = 4;
             // 
             // PanelPrincipal
@@ -209,7 +209,7 @@ namespace Menu_Restaurante
             this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelPrincipal.Location = new System.Drawing.Point(215, 63);
             this.PanelPrincipal.Name = "PanelPrincipal";
-            this.PanelPrincipal.Size = new System.Drawing.Size(748, 397);
+            this.PanelPrincipal.Size = new System.Drawing.Size(748, 403);
             this.PanelPrincipal.TabIndex = 5;
             this.PanelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelPrincipal_Paint);
             // 
