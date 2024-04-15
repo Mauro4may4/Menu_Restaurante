@@ -175,7 +175,7 @@ namespace Menu_Restaurante
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // BotonCombos
             // 
@@ -196,7 +196,7 @@ namespace Menu_Restaurante
             this.BotonCombos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BotonCombos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BotonCombos.UseVisualStyleBackColor = true;
-            this.BotonCombos.Click += new System.EventHandler(this.button1_Click_1);
+            this.BotonCombos.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 

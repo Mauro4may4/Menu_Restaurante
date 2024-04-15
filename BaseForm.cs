@@ -63,11 +63,6 @@ namespace Menu_Restaurante
             AbrirFormHijo(new VentanaCombos());
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            AbrirFormHijo(new VentanaCombos());
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
 

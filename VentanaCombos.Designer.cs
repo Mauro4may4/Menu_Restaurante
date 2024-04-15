@@ -65,6 +65,7 @@
             this.ComboForm.Name = "ComboForm";
             this.ComboForm.ReadOnly = true;
             this.ComboForm.RowHeadersVisible = false;
+            this.ComboForm.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.ComboForm.Size = new System.Drawing.Size(800, 450);
             this.ComboForm.TabIndex = 0;
             this.ComboForm.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
