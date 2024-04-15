@@ -45,9 +45,11 @@ namespace Menu_Restaurante
         //Funcion para llamar objeto
         private void AbrirFormHijo(object formhija)
         {
+            //Preguntamos si existe algún control en interior del panel si es verdadero se elimina
             if (this.PanelPrincipal.Controls.Count > 0)
                 this.PanelPrincipal.Controls.RemoveAt(0);
             Form fh = formhija as Form;
+            //Indicamos que no es un formulario de nivel superior
             fh.TopLevel = false;
             fh.Dock = DockStyle.Fill;
             this.PanelPrincipal.Controls.Add(fh);
@@ -57,7 +59,7 @@ namespace Menu_Restaurante
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            AbrirFormHijo(new VentanaCombos());
         }
 
         private void button2_Click(object sender, EventArgs e)
