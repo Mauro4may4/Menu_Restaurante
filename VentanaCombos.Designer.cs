@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ComboForm = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IMAGEN = new System.Windows.Forms.DataGridViewImageColumn();
@@ -46,8 +46,8 @@
             // 
             this.ComboForm.AllowUserToAddRows = false;
             this.ComboForm.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ComboForm.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ComboForm.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.ComboForm.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ComboForm.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.ComboForm.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -114,6 +114,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Red;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(366, 106);
             this.panel1.Name = "panel1";

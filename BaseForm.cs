@@ -42,12 +42,6 @@ namespace Menu_Restaurante
 
         }
 
-        //Boton Combos
-        private void button1_Click(object sender, EventArgs e)
-        {
-            AbrirFormHijo(new Panel());
-        }
-
         //Funcion para llamar objeto
         private void AbrirFormHijo(object formhija)
         {
@@ -59,6 +53,12 @@ namespace Menu_Restaurante
             this.PanelPrincipal.Controls.Add(fh);
             this.PanelPrincipal.Tag = fh;
             fh.Show();
+        }
+
+        //Boton Combos
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AbrirFormHijo(new VentanaCombos());
         }
 
         private void button1_Click_1(object sender, EventArgs e)
