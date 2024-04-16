@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\",
+  "WorkspaceRootPath": "C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\desktop\\menu_restaurante\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\source\\repos\\menu_restaurante\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\baseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:baseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\baseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:baseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BaseForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\BaseForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\BaseForm.Designer.cs",
               "RelativeDocumentMoniker": "BaseForm.Designer.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\BaseForm.Designer.cs",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\BaseForm.Designer.cs",
               "RelativeToolTip": "BaseForm.Designer.cs",
-              "ViewState": "AQIAAJ8AAAAAAAAAAAApwLEAAABMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T22:34:54.426Z",
               "IsPinned": true,
@@ -76,11 +76,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BaseForm.cs",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\BaseForm.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\BaseForm.cs",
               "RelativeDocumentMoniker": "BaseForm.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\BaseForm.cs",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\BaseForm.cs",
               "RelativeToolTip": "BaseForm.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAASwD4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,11 +89,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "VentanaCombos.cs",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\VentanaCombos.cs",
               "RelativeDocumentMoniker": "VentanaCombos.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\VentanaCombos.cs",
               "RelativeToolTip": "VentanaCombos.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAApwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -102,11 +102,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "VentanaCombos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\VentanaCombos.cs",
               "RelativeDocumentMoniker": "VentanaCombos.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\VentanaCombos.cs [Dise\u00F1o]",
               "RelativeToolTip": "VentanaCombos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T03:47:47.253Z",
@@ -116,13 +116,17 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BaseForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\BaseForm.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\BaseForm.cs",
               "RelativeDocumentMoniker": "BaseForm.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\BaseForm.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\mauro\\source\\repos\\Menu_Restaurante\\BaseForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "BaseForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T21:59:32.201Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
