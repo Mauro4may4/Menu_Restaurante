@@ -16,5 +16,10 @@ namespace Menu_Restaurante
         {
             InitializeComponent();
         }
+
+        private void registrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
