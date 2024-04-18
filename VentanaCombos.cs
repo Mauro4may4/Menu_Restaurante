@@ -17,7 +17,8 @@ namespace Menu_Restaurante
         {
             InitializeComponent();
         }
-       SqlConnection conexion = new SqlConnection("server= DODO; database = Restaurant_; password = Toto2323; user = Toto28; integrated security = true");
+
+        SqlConnection conexion = new SqlConnection("server= DODO; database = Restaurant_; password = Toto2323; user = Toto28; integrated security = true");
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
              

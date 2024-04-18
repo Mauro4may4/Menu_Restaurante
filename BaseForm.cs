@@ -82,7 +82,9 @@ namespace Menu_Restaurante
         //Ajustes
         private void button4_Click(object sender, EventArgs e)
         {
-            //FormPrincipal.Show();
+            //generamos instancia a BaseForm
+            FormPrincipal fp = new FormPrincipal();
+            fp.ShowDialog();
         }
     }
 }
