@@ -30,3 +30,16 @@ C:\Users\mauro\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.csproj.G
 C:\Users\mauro\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.csproj.CoreCompileInputs.cache
 C:\Users\mauro\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.exe
 C:\Users\mauro\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.pdb
+C:\Users\josue\Source\Repos\Menu_Restaurante\bin\Debug\Menu_Restaurante.exe.config
+C:\Users\josue\Source\Repos\Menu_Restaurante\bin\Debug\Menu_Restaurante.exe
+C:\Users\josue\Source\Repos\Menu_Restaurante\bin\Debug\Menu_Restaurante.pdb
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.csproj.AssemblyReference.cache
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.BaseForm.resources
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.FormPrincipal.resources
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.productoForm.resources
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.Properties.Resources.resources
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.VentanaCombos.resources
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.csproj.GenerateResource.cache
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.exe
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.pdb
