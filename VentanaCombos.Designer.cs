@@ -29,15 +29,17 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ComboForm = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IMAGEN = new System.Windows.Forms.DataGridViewImageColumn();
-            this.DESCRIPCION = new System.Windows.Forms.DataGridViewImageColumn();
-            this.PRECIO = new System.Windows.Forms.DataGridViewImageColumn();
-            this.CANTIDAD = new System.Windows.Forms.DataGridViewImageColumn();
-            this.SELECCIONAR = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IMAGEN = new System.Windows.Forms.DataGridViewImageColumn();
+            this.DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PRECIO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CANTIDAD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SELECCIONAR = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ComboForm)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -70,6 +72,24 @@
             this.ComboForm.TabIndex = 0;
             this.ComboForm.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(229, 96);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(210, 147);
+            this.panel1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(69, 55);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Borrar";
+            // 
             // ID
             // 
             this.ID.DataPropertyName = "id";
@@ -91,20 +111,32 @@
             this.DESCRIPCION.HeaderText = "DESCRIPCION";
             this.DESCRIPCION.Name = "DESCRIPCION";
             this.DESCRIPCION.ReadOnly = true;
+            this.DESCRIPCION.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.DESCRIPCION.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // PRECIO
             // 
             this.PRECIO.DataPropertyName = "precio";
+            dataGridViewCellStyle2.Format = "C2";
+            dataGridViewCellStyle2.NullValue = "0";
+            this.PRECIO.DefaultCellStyle = dataGridViewCellStyle2;
             this.PRECIO.HeaderText = "PRECIO";
             this.PRECIO.Name = "PRECIO";
             this.PRECIO.ReadOnly = true;
+            this.PRECIO.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.PRECIO.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // CANTIDAD
             // 
             this.CANTIDAD.DataPropertyName = "cantidad";
+            dataGridViewCellStyle3.Format = "N0";
+            dataGridViewCellStyle3.NullValue = "0";
+            this.CANTIDAD.DefaultCellStyle = dataGridViewCellStyle3;
             this.CANTIDAD.HeaderText = "CANTIDAD";
             this.CANTIDAD.Name = "CANTIDAD";
             this.CANTIDAD.ReadOnly = true;
+            this.CANTIDAD.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.CANTIDAD.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // SELECCIONAR
             // 
@@ -112,24 +144,7 @@
             this.SELECCIONAR.HeaderText = "SELECCIONAR";
             this.SELECCIONAR.Name = "SELECCIONAR";
             this.SELECCIONAR.ReadOnly = true;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Red;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(229, 96);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(210, 147);
-            this.panel1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(69, 55);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Borrar";
+            this.SELECCIONAR.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
             // VentanaCombos
             // 
@@ -151,13 +166,13 @@
         #endregion
 
         private System.Windows.Forms.DataGridView ComboForm;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewImageColumn IMAGEN;
-        private System.Windows.Forms.DataGridViewImageColumn DESCRIPCION;
-        private System.Windows.Forms.DataGridViewImageColumn PRECIO;
-        private System.Windows.Forms.DataGridViewImageColumn CANTIDAD;
-        private System.Windows.Forms.DataGridViewImageColumn SELECCIONAR;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewImageColumn IMAGEN;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DESCRIPCION;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PRECIO;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CANTIDAD;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn SELECCIONAR;
     }
 }
