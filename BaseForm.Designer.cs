@@ -225,7 +225,7 @@ namespace Menu_Restaurante
             this.Total.AutoSize = true;
             this.Total.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Total.ForeColor = System.Drawing.Color.Black;
-            this.Total.Location = new System.Drawing.Point(129, 17);
+            this.Total.Location = new System.Drawing.Point(129, 20);
             this.Total.Name = "Total";
             this.Total.Size = new System.Drawing.Size(18, 19);
             this.Total.TabIndex = 4;
@@ -236,7 +236,7 @@ namespace Menu_Restaurante
             this.LbTotal.AutoSize = true;
             this.LbTotal.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LbTotal.ForeColor = System.Drawing.Color.Black;
-            this.LbTotal.Location = new System.Drawing.Point(6, 17);
+            this.LbTotal.Location = new System.Drawing.Point(6, 20);
             this.LbTotal.Name = "LbTotal";
             this.LbTotal.Size = new System.Drawing.Size(126, 19);
             this.LbTotal.TabIndex = 3;
