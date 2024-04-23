@@ -86,5 +86,10 @@ namespace Menu_Restaurante
             FormPrincipal fp = new FormPrincipal();
             fp.ShowDialog();
         }
+
+        private void BotonRemover_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
