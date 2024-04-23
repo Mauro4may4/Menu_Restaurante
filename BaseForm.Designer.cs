@@ -42,12 +42,12 @@ namespace Menu_Restaurante
             this.button1 = new System.Windows.Forms.Button();
             this.BotonCombos = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.Total = new System.Windows.Forms.Label();
+            this.LbTotal = new System.Windows.Forms.Label();
             this.BotonRemover = new System.Windows.Forms.Button();
             this.BotonCompletar = new System.Windows.Forms.Button();
             this.BotonAgregar = new System.Windows.Forms.Button();
             this.PanelPrincipal = new System.Windows.Forms.Panel();
-            this.LbTotal = new System.Windows.Forms.Label();
-            this.Total = new System.Windows.Forms.Label();
             this.PanelSuperior.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -220,6 +220,28 @@ namespace Menu_Restaurante
             this.panel2.Size = new System.Drawing.Size(778, 57);
             this.panel2.TabIndex = 4;
             // 
+            // Total
+            // 
+            this.Total.AutoSize = true;
+            this.Total.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Total.ForeColor = System.Drawing.Color.Black;
+            this.Total.Location = new System.Drawing.Point(129, 17);
+            this.Total.Name = "Total";
+            this.Total.Size = new System.Drawing.Size(18, 19);
+            this.Total.TabIndex = 4;
+            this.Total.Text = "0";
+            // 
+            // LbTotal
+            // 
+            this.LbTotal.AutoSize = true;
+            this.LbTotal.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbTotal.ForeColor = System.Drawing.Color.Black;
+            this.LbTotal.Location = new System.Drawing.Point(6, 17);
+            this.LbTotal.Name = "LbTotal";
+            this.LbTotal.Size = new System.Drawing.Size(126, 19);
+            this.LbTotal.TabIndex = 3;
+            this.LbTotal.Text = "Total en carrito:";
+            // 
             // BotonRemover
             // 
             this.BotonRemover.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -234,6 +256,7 @@ namespace Menu_Restaurante
             this.BotonRemover.Size = new System.Drawing.Size(153, 48);
             this.BotonRemover.TabIndex = 2;
             this.BotonRemover.Text = "   Remover";
+            this.BotonRemover.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BotonRemover.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BotonRemover.UseVisualStyleBackColor = false;
             this.BotonRemover.Click += new System.EventHandler(this.BotonRemover_Click);
@@ -252,6 +275,7 @@ namespace Menu_Restaurante
             this.BotonCompletar.Size = new System.Drawing.Size(185, 48);
             this.BotonCompletar.TabIndex = 1;
             this.BotonCompletar.Text = " Completar Compra";
+            this.BotonCompletar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BotonCompletar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BotonCompletar.UseVisualStyleBackColor = false;
             // 
@@ -269,6 +293,7 @@ namespace Menu_Restaurante
             this.BotonAgregar.Size = new System.Drawing.Size(185, 48);
             this.BotonAgregar.TabIndex = 0;
             this.BotonAgregar.Text = "  Agregar al carro";
+            this.BotonAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BotonAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BotonAgregar.UseVisualStyleBackColor = false;
             // 
@@ -280,28 +305,6 @@ namespace Menu_Restaurante
             this.PanelPrincipal.Size = new System.Drawing.Size(778, 393);
             this.PanelPrincipal.TabIndex = 5;
             this.PanelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelPrincipal_Paint);
-            // 
-            // LbTotal
-            // 
-            this.LbTotal.AutoSize = true;
-            this.LbTotal.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbTotal.ForeColor = System.Drawing.Color.Black;
-            this.LbTotal.Location = new System.Drawing.Point(6, 17);
-            this.LbTotal.Name = "LbTotal";
-            this.LbTotal.Size = new System.Drawing.Size(126, 19);
-            this.LbTotal.TabIndex = 3;
-            this.LbTotal.Text = "Total en carrito:";
-            // 
-            // Total
-            // 
-            this.Total.AutoSize = true;
-            this.Total.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Total.ForeColor = System.Drawing.Color.Black;
-            this.Total.Location = new System.Drawing.Point(129, 17);
-            this.Total.Name = "Total";
-            this.Total.Size = new System.Drawing.Size(18, 19);
-            this.Total.TabIndex = 4;
-            this.Total.Text = "0";
             // 
             // BaseForm
             // 
