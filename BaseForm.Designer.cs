@@ -251,6 +251,7 @@ namespace Menu_Restaurante
             this.BotonRemover.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonRemover.ForeColor = System.Drawing.Color.White;
             this.BotonRemover.Image = ((System.Drawing.Image)(resources.GetObject("BotonRemover.Image")));
+            this.BotonRemover.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BotonRemover.Location = new System.Drawing.Point(236, 6);
             this.BotonRemover.Name = "BotonRemover";
             this.BotonRemover.Size = new System.Drawing.Size(153, 48);
@@ -270,6 +271,7 @@ namespace Menu_Restaurante
             this.BotonCompletar.Font = new System.Drawing.Font("Bell MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonCompletar.ForeColor = System.Drawing.Color.White;
             this.BotonCompletar.Image = ((System.Drawing.Image)(resources.GetObject("BotonCompletar.Image")));
+            this.BotonCompletar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BotonCompletar.Location = new System.Drawing.Point(395, 6);
             this.BotonCompletar.Name = "BotonCompletar";
             this.BotonCompletar.Size = new System.Drawing.Size(185, 48);
@@ -288,6 +290,7 @@ namespace Menu_Restaurante
             this.BotonAgregar.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonAgregar.ForeColor = System.Drawing.Color.White;
             this.BotonAgregar.Image = ((System.Drawing.Image)(resources.GetObject("BotonAgregar.Image")));
+            this.BotonAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BotonAgregar.Location = new System.Drawing.Point(586, 6);
             this.BotonAgregar.Name = "BotonAgregar";
             this.BotonAgregar.Size = new System.Drawing.Size(185, 48);
