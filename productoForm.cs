@@ -49,7 +49,7 @@ namespace Menu_Restaurante
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (SqlConnection cn = new SqlConnection("Data Source=DODO;Initial Catalog=Restaurant_;Integrated Security=True"))
+            using (SqlConnection cn = new SqlConnection("Data Source=restaurantssq.database.windows.net;Initial Catalog=Restaurant;Persist Security Info=True;User ID=Toto28;Password=Toto2323;TrustServerCertificate=True"))
             {
 
                 SqlCommand cmd = new SqlCommand("Insert into Productos (ID_Producto, Descripcion, Precio) values ( " + textBox5.Text + ",'" + textBox1.Text + "','" + textBox2.Text + "')", cn); ;

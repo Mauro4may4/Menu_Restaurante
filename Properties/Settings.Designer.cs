@@ -33,5 +33,17 @@ namespace Menu_Restaurante.Properties {
                 return ((string)(this["Unica"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=restaurantssq.database.windows.net;Initial Catalog=Restaurant;Persist" +
+            " Security Info=True;User ID=Toto28;Password=Toto2323;TrustServerCertificate=True" +
+            "")]
+        public string RestaurantConnectionString {
+            get {
+                return ((string)(this["RestaurantConnectionString"]));
+            }
+        }
     }
 }

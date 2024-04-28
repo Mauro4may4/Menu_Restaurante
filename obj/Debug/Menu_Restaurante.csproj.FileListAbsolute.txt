@@ -47,3 +47,6 @@ C:\Users\sotou\source\repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.FormPrin
 C:\Users\sotou\source\repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.productoForm.resources
 C:\Users\sotou\source\repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.VentanaCombos.resources
 C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.CarritoForm.resources
+C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.CarritoForm.resources
+C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.FormPrincipal.resources
+C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.productoForm.resources

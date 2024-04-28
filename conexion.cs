@@ -13,7 +13,7 @@ namespace Menu_Restaurante
     {
         public SqlConnection LeerCadena()
         {
-            SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["Unica"].ConnectionString);
+            SqlConnection cn = new SqlConnection("Data Source = restaurantssq.database.windows.net; Initial Catalog = Restaurant; Persist Security Info = True; User ID = Toto28; Password = Toto2323; TrustServerCertificate = True");
 
             if (cn.State == ConnectionState.Open)
             {
