@@ -19,8 +19,13 @@ namespace Menu_Restaurante
 
         private void registrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            productoForm fp = new productoForm();
+            Form1 fp = new Form1();
             fp.ShowDialog();
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

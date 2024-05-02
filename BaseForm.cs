@@ -91,5 +91,10 @@ namespace Menu_Restaurante
         {
 
         }
+
+        private void BaseForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
