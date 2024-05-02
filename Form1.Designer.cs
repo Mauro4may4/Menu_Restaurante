@@ -113,6 +113,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.ErrorImage = global::Menu_Restaurante.Properties.Resources.Login;
             this.pictureBox1.Image = global::Menu_Restaurante.Properties.Resources.Login;
             this.pictureBox1.Location = new System.Drawing.Point(56, 138);
             this.pictureBox1.Name = "pictureBox1";
