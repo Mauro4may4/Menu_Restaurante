@@ -30,12 +30,12 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.txtContra = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -65,6 +65,17 @@
             this.groupBox1.Size = new System.Drawing.Size(776, 348);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.ErrorImage = global::Menu_Restaurante.Properties.Resources.Login;
+            this.pictureBox1.Image = global::Menu_Restaurante.Properties.Resources.Login;
+            this.pictureBox1.Location = new System.Drawing.Point(56, 73);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(183, 192);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // btnIngresar
             // 
@@ -111,17 +122,6 @@
             this.label2.Size = new System.Drawing.Size(112, 32);
             this.label2.TabIndex = 0;
             this.label2.Text = "Usuario";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.ErrorImage = global::Menu_Restaurante.Properties.Resources.Login;
-            this.pictureBox1.Image = global::Menu_Restaurante.Properties.Resources.Login;
-            this.pictureBox1.Location = new System.Drawing.Point(34, 42);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(183, 192);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 

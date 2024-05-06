@@ -28,8 +28,8 @@ namespace Menu_Restaurante
         {
             using (SqlConnection conexion = new SqlConnection("Data Source = restaurantssq.database.windows.net; Initial Catalog = Restaurant; Persist Security Info = True; User ID = Toto28; Password = Toto2323; TrustServerCertificate = True"))
             {
-                da = new SqlDataAdapter("select Id_producto, DESCRIPCION, PRECIO, Ruta_Imagen from productos where categorias='Combos'", conexion);
-                da.SelectCommand.Parameters.AddWithValue("combos", Categoria);
+                da = new SqlDataAdapter("select Id_producto, descripcion, precio, Ruta_Imagen from productos where categorias='Combos'", conexion);
+                da.SelectCommand.Parameters.AddWithValue("Combos", Categoria);
                 ds = new DataSet();
                 da.Fill(ds);
                 if (ds.Tables[0].Rows.Count > 0)
@@ -77,11 +77,20 @@ namespace Menu_Restaurante
             }
 
         }
-
-
+        private void comboForm_Load(object sender, EventArgs e)
+        {
+            Poblar();
+        }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
+
+        }
+
+        private void VentanaCombos_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'restaurantDataSet.Productos' Puede moverla o quitarla según sea necesario.
+            //this.productosTableAdapter.Fill(this.restaurantDataSet.Productos);
 
         }
     }

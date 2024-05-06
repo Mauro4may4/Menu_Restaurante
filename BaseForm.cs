@@ -8,15 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
  
 
 namespace Menu_Restaurante
 {
     public partial class BaseForm : Form
     {
+      
         public BaseForm()
         {
             InitializeComponent();
+            
+            
+
            
         }
 
@@ -61,10 +66,11 @@ namespace Menu_Restaurante
         }
 
         //Boton Combos
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             AbrirFormHijo(new VentanaCombos());
-        
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)

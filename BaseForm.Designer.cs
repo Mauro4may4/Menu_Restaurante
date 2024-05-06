@@ -61,7 +61,7 @@ namespace Menu_Restaurante
             this.PanelSuperior.Controls.Add(this.label1);
             this.PanelSuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelSuperior.Location = new System.Drawing.Point(0, 0);
-            this.PanelSuperior.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelSuperior.Margin = new System.Windows.Forms.Padding(4);
             this.PanelSuperior.Name = "PanelSuperior";
             this.PanelSuperior.Size = new System.Drawing.Size(1324, 78);
             this.PanelSuperior.TabIndex = 2;
@@ -78,7 +78,7 @@ namespace Menu_Restaurante
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(25)))), ((int)(((byte)(2)))));
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.Location = new System.Drawing.Point(1249, 0);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 78);
             this.button4.TabIndex = 9;
@@ -124,7 +124,7 @@ namespace Menu_Restaurante
             this.panel1.Controls.Add(this.BotonCombos);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 78);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(287, 553);
             this.panel1.TabIndex = 3;
@@ -141,7 +141,7 @@ namespace Menu_Restaurante
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.Location = new System.Drawing.Point(15, 418);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(257, 91);
             this.button3.TabIndex = 8;
@@ -162,7 +162,7 @@ namespace Menu_Restaurante
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.Location = new System.Drawing.Point(15, 305);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(257, 91);
             this.button2.TabIndex = 7;
@@ -183,7 +183,7 @@ namespace Menu_Restaurante
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.Location = new System.Drawing.Point(15, 57);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(257, 91);
             this.button1.TabIndex = 6;
@@ -205,7 +205,7 @@ namespace Menu_Restaurante
             this.BotonCombos.ForeColor = System.Drawing.Color.White;
             this.BotonCombos.Image = ((System.Drawing.Image)(resources.GetObject("BotonCombos.Image")));
             this.BotonCombos.Location = new System.Drawing.Point(16, 186);
-            this.BotonCombos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BotonCombos.Margin = new System.Windows.Forms.Padding(4);
             this.BotonCombos.Name = "BotonCombos";
             this.BotonCombos.Size = new System.Drawing.Size(257, 86);
             this.BotonCombos.TabIndex = 5;
@@ -225,7 +225,7 @@ namespace Menu_Restaurante
             this.panel2.Controls.Add(this.BotonAgregar);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(287, 561);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1037, 70);
             this.panel2.TabIndex = 4;
@@ -265,7 +265,7 @@ namespace Menu_Restaurante
             this.BotonRemover.Image = ((System.Drawing.Image)(resources.GetObject("BotonRemover.Image")));
             this.BotonRemover.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BotonRemover.Location = new System.Drawing.Point(315, 7);
-            this.BotonRemover.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BotonRemover.Margin = new System.Windows.Forms.Padding(4);
             this.BotonRemover.Name = "BotonRemover";
             this.BotonRemover.Size = new System.Drawing.Size(204, 59);
             this.BotonRemover.TabIndex = 2;
@@ -286,7 +286,7 @@ namespace Menu_Restaurante
             this.BotonCompletar.Image = ((System.Drawing.Image)(resources.GetObject("BotonCompletar.Image")));
             this.BotonCompletar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BotonCompletar.Location = new System.Drawing.Point(527, 7);
-            this.BotonCompletar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BotonCompletar.Margin = new System.Windows.Forms.Padding(4);
             this.BotonCompletar.Name = "BotonCompletar";
             this.BotonCompletar.Size = new System.Drawing.Size(247, 59);
             this.BotonCompletar.TabIndex = 1;
@@ -306,7 +306,7 @@ namespace Menu_Restaurante
             this.BotonAgregar.Image = ((System.Drawing.Image)(resources.GetObject("BotonAgregar.Image")));
             this.BotonAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BotonAgregar.Location = new System.Drawing.Point(781, 7);
-            this.BotonAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BotonAgregar.Margin = new System.Windows.Forms.Padding(4);
             this.BotonAgregar.Name = "BotonAgregar";
             this.BotonAgregar.Size = new System.Drawing.Size(247, 59);
             this.BotonAgregar.TabIndex = 0;
@@ -319,7 +319,7 @@ namespace Menu_Restaurante
             // 
             this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelPrincipal.Location = new System.Drawing.Point(287, 78);
-            this.PanelPrincipal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelPrincipal.Margin = new System.Windows.Forms.Padding(4);
             this.PanelPrincipal.Name = "PanelPrincipal";
             this.PanelPrincipal.Size = new System.Drawing.Size(1037, 483);
             this.PanelPrincipal.TabIndex = 5;
@@ -334,8 +334,10 @@ namespace Menu_Restaurante
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.PanelSuperior);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BaseForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.BaseForm_Load);
             this.PanelSuperior.ResumeLayout(false);

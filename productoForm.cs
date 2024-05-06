@@ -70,12 +70,13 @@ namespace Menu_Restaurante
          
         }
         Categorias cat = new Categorias();
-        private void productoForm_Load(object sender, EventArgs e)
+        public void productoForm_Load(object sender, EventArgs e)
+
         {
             Poblar();
             Categoria.DataSource = cat.comboCargar();
             Categoria.DisplayMember = "Nombre_Categoria";
-            Categoria.ValueMember = "ID_Categoria";
+            Categoria.ValueMember = "ID_categoria";
         }
 
         SqlConnection conex = new SqlConnection("Data Source = restaurantssq.database.windows.net; Initial Catalog = Restaurant; Persist Security Info = True; User ID = Toto28; Password = Toto2323; TrustServerCertificate = True");
