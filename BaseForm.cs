@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+ 
 
 namespace Menu_Restaurante
 {
@@ -16,6 +17,7 @@ namespace Menu_Restaurante
         public BaseForm()
         {
             InitializeComponent();
+           
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -62,6 +64,7 @@ namespace Menu_Restaurante
         private void button1_Click(object sender, EventArgs e)
         {
             AbrirFormHijo(new VentanaCombos());
+        
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -86,6 +89,16 @@ namespace Menu_Restaurante
             FormPrincipal fp = new FormPrincipal();
             fp.ShowDialog();
         }
+
+        private VentanaCombos ventanaCombos;
+
+        private void baseForm_Resize(object sender, EventArgs e)
+        {
+            InitializeComponent();
+            ventanaCombos = new VentanaCombos();
+            ventanaCombos.Show();
+        }
+
 
         private void BotonRemover_Click(object sender, EventArgs e)
         {
