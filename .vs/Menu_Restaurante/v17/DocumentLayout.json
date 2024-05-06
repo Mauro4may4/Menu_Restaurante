@@ -1,53 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\",
+  "WorkspaceRootPath": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\desktop\\menu_restaurante\\productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\downloads\\menu_restaurante\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\productoForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:productoForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\FormPrincipal.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:FormPrincipal.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\productoForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:productoForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\CarritoForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:CarritoForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\VentanaCombos.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:VentanaCombos.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\desktop\\menu_restaurante\\productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\desktop\\menu_restaurante\\ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\desktop\\menu_restaurante\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\VentanaCombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:VentanaCombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Menu_Restaurante||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\FormPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:FormPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\desktop\\menu_restaurante\\carritoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:carritoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\desktop\\menu_restaurante\\productoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:productoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\formprincipal.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\formprincipal.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:formprincipal.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\ventanacombos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:ventanacombos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\desktop\\menu_restaurante\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,17 +62,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "conexion.cs",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\conexion.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\conexion.cs",
               "RelativeDocumentMoniker": "conexion.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\conexion.cs",
+              "ToolTip": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\conexion.cs",
               "RelativeToolTip": "conexion.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAADlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T03:25:19.446Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -116,127 +116,130 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "productoForm.cs",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\productoForm.cs",
-              "RelativeDocumentMoniker": "productoForm.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\productoForm.cs",
-              "RelativeToolTip": "productoForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAADaAAAA",
+              "Title": "Ticketform.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\Ticketform.cs",
+              "RelativeDocumentMoniker": "Ticketform.cs",
+              "ToolTip": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\Ticketform.cs",
+              "RelativeToolTip": "Ticketform.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T03:43:20.453Z",
+              "WhenOpened": "2024-05-02T17:44:52.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "productoForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\productoForm.cs",
-              "RelativeDocumentMoniker": "productoForm.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\productoForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "productoForm.cs [Dise\u00F1o]",
+              "Title": "Ticketform.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\Ticketform.cs",
+              "RelativeDocumentMoniker": "Ticketform.cs",
+              "ToolTip": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\Ticketform.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\sotou\\source\\repos\\Menu_Restaurante\\Ticketform.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T03:19:39.607Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VentanaCombos.cs",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs",
-              "RelativeDocumentMoniker": "VentanaCombos.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs",
-              "RelativeToolTip": "VentanaCombos.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABUAAAC5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T22:38:20.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\FormPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T22:37:23.75Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Menu_Restaurante",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\Menu_Restaurante.csproj",
-              "RelativeDocumentMoniker": "Menu_Restaurante.csproj",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\Menu_Restaurante.csproj",
-              "RelativeToolTip": "Menu_Restaurante.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-27T22:38:51.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CarritoForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\CarritoForm.cs",
-              "RelativeDocumentMoniker": "CarritoForm.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\CarritoForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CarritoForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T03:19:32.709Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-02T17:20:23.399Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "productoForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\productoForm.Designer.cs",
-              "RelativeDocumentMoniker": "productoForm.Designer.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\productoForm.Designer.cs",
-              "RelativeToolTip": "productoForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "productoForm.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\productoForm.cs",
+              "RelativeDocumentMoniker": "productoForm.cs",
+              "ToolTip": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\productoForm.cs",
+              "RelativeToolTip": "productoForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAADaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T03:19:55.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T03:43:20.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FormPrincipal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\FormPrincipal.Designer.cs",
-              "RelativeDocumentMoniker": "FormPrincipal.Designer.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\FormPrincipal.Designer.cs",
-              "RelativeToolTip": "FormPrincipal.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "productoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\productoForm.cs",
+              "RelativeDocumentMoniker": "productoForm.cs",
+              "ToolTip": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\productoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\sotou\\source\\repos\\Menu_Restaurante\\productoForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T22:38:04.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T03:19:39.607Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "FormPrincipal.resx",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\FormPrincipal.resx",
-              "RelativeDocumentMoniker": "FormPrincipal.resx",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\FormPrincipal.resx",
-              "RelativeToolTip": "FormPrincipal.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-04-27T22:38:02.923Z",
-              "EditorCaption": ""
+              "Title": "VentanaCombos.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\VentanaCombos.cs",
+              "RelativeDocumentMoniker": "VentanaCombos.cs",
+              "ToolTip": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\VentanaCombos.cs",
+              "RelativeToolTip": "VentanaCombos.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABUAAAC5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:38:20.052Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\sotou\\source\\repos\\Menu_Restaurante\\FormPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:37:23.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarritoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\CarritoForm.cs",
+              "RelativeDocumentMoniker": "CarritoForm.cs",
+              "ToolTip": "C:\\Users\\sotou\\source\\repos\\Menu_Restaurante\\CarritoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\sotou\\source\\repos\\Menu_Restaurante\\CarritoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T03:19:32.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "productoForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\productoForm.Designer.cs",
+              "RelativeDocumentMoniker": "productoForm.Designer.cs",
+              "ToolTip": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\productoForm.Designer.cs",
+              "RelativeToolTip": "productoForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T03:19:55.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\FormPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "FormPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\FormPrincipal.Designer.cs",
+              "RelativeToolTip": "FormPrincipal.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:38:04.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormPrincipal.resx",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\FormPrincipal.resx",
+              "RelativeDocumentMoniker": "FormPrincipal.resx",
+              "ToolTip": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\FormPrincipal.resx",
+              "RelativeToolTip": "FormPrincipal.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-27T22:38:02.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "VentanaCombos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\VentanaCombos.Designer.cs",
               "RelativeDocumentMoniker": "VentanaCombos.Designer.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.Designer.cs",
+              "ToolTip": "C:\\Users\\mauro\\Downloads\\Menu_Restaurante\\VentanaCombos.Designer.cs",
               "RelativeToolTip": "VentanaCombos.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T22:37:48.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T22:37:48.794Z"
             }
           ]
         }

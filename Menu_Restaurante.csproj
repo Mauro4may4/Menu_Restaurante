@@ -85,6 +85,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RestaurantDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Ticketform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ticketform.Designer.cs">
+      <DependentUpon>Ticketform.cs</DependentUpon>
+    </Compile>
     <Compile Include="VentanaCombos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +118,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ticketform.resx">
+      <DependentUpon>Ticketform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VentanaCombos.resx">
       <DependentUpon>VentanaCombos.cs</DependentUpon>
     </EmbeddedResource>
