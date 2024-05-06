@@ -173,6 +173,16 @@ namespace Menu_Restaurante
         {
             Poblar();
         }
+
+        private void textDescription_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textprecio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
