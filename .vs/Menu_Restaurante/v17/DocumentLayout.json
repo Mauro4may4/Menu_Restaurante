@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\desktop\\menu_restaurante\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:ventanacombos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|c:\\users\\mauro\\desktop\\menu_restaurante\\productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30EFF4BD-3B28-4477-A1F9-EF0554EC10A5}|Menu_Restaurante.csproj|solutionrelative:productoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,28 +70,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TicketForm.cs",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\TicketForm.cs",
-              "RelativeDocumentMoniker": "TicketForm.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\TicketForm.cs",
-              "RelativeToolTip": "TicketForm.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBUAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "productoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\productoForm.cs",
+              "RelativeDocumentMoniker": "productoForm.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\productoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "productoForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T21:37:07.833Z",
+              "WhenOpened": "2024-05-06T23:40:22.561Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VentanaCombos.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs",
+              "RelativeDocumentMoniker": "VentanaCombos.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs",
+              "RelativeToolTip": "VentanaCombos.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAcwEIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T23:32:26.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TicketForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\TicketForm.cs",
-              "RelativeDocumentMoniker": "TicketForm.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\TicketForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TicketForm.cs [Dise\u00F1o]",
+              "Title": "VentanaCombos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs",
+              "RelativeDocumentMoniker": "VentanaCombos.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "VentanaCombos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T21:36:48.502Z",
+              "WhenOpened": "2024-05-06T23:30:32.924Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "productoForm.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\productoForm.cs",
+              "RelativeDocumentMoniker": "productoForm.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\productoForm.cs",
+              "RelativeToolTip": "productoForm.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAuwC4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T23:29:25.277Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -98,18 +127,8 @@
               "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\BaseForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "BaseForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T21:32:46.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VentanaCombos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs",
-              "RelativeDocumentMoniker": "VentanaCombos.cs",
-              "ToolTip": "C:\\Users\\mauro\\Desktop\\Menu_Restaurante\\VentanaCombos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "VentanaCombos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T21:32:40.544Z"
+              "WhenOpened": "2024-05-06T23:29:21.29Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

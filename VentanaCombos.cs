@@ -34,12 +34,12 @@ namespace Menu_Restaurante
                 da.Fill(ds);
                 if (ds.Tables[0].Rows.Count > 0)
                 {
-                    dataGridView1.AutoGenerateColumns = false;
-                    dataGridView1.DataSource = ds.Tables[0];
+                    ComboForm.AutoGenerateColumns = false;
+                    ComboForm.DataSource = ds.Tables[0];
                 }
                 else
                 {
-                    dataGridView1.DataSource = null;
+                    ComboForm.DataSource = null;
                 }
             }
         }
