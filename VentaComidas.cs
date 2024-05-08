@@ -2,34 +2,32 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
-using System.Drawing.Imaging;
 
 namespace Menu_Restaurante
 {
-    public partial class VentanaCombos : Form
+    public partial class VentaComidas : Form
     {
         private SqlDataAdapter da;
         private DataSet ds;
         public string Categoria = "";
         private DataGridView dataGridView1 = new DataGridView();
-        public VentanaCombos()
+        public VentaComidas()
         {
             InitializeComponent();
-            Poblar();
         }
 
         private void Poblar()
         {
             using (SqlConnection conexion = new SqlConnection("Data Source = restaurantssq.database.windows.net; Initial Catalog = Restaurant; Persist Security Info = True; User ID = Toto28; Password = Toto2323; TrustServerCertificate = True"))
             {
-                da = new SqlDataAdapter("select Id_producto, descripcion, precio from productos where categorias='combos'", conexion);
-                da.SelectCommand.Parameters.AddWithValue("combos", Categoria);
+                da = new SqlDataAdapter("select Id_producto, descripcion, precio, Ruta_Imagen from productos where categorias='Bebidas'", conexion);
+                da.SelectCommand.Parameters.AddWithValue("Bebidas", Categoria);
                 ds = new DataSet();
                 da.Fill(ds);
                 if (ds.Tables[0].Rows.Count > 0)
@@ -61,8 +59,7 @@ namespace Menu_Restaurante
                 }
             }
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void ComboForm_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dataGridView1.Rows.Count > 0)
             {
@@ -75,22 +72,6 @@ namespace Menu_Restaurante
                     dataGridView1.CurrentRow.Cells["CANTIDAD"].Value = 1;
                 }
             }
-
-        }
-        private void comboForm_Load(object sender, EventArgs e)
-        {
-            Poblar();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void VentanaCombos_Load(object sender, EventArgs e)
-        {
-            Poblar();
-
         }
     }
 }

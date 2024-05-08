@@ -27,5 +27,10 @@ namespace Menu_Restaurante
         {
 
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
