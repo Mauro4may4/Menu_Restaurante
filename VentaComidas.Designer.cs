@@ -1,6 +1,6 @@
 ﻿namespace Menu_Restaurante
 {
-    partial class CarritoForm
+    partial class VentaComidas
     {
         /// <summary>
         /// Required designer variable.
@@ -29,49 +29,48 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VentaComidas));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.ComboForm2 = new System.Windows.Forms.DataGridView();
+            this.ComboForm = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ID_PRODUCTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IMAGEN = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Ruta_Imagen = new System.Windows.Forms.DataGridViewImageColumn();
             this.DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PRECIO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CANTIDAD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RUTA = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.ComboForm2)).BeginInit();
+            this.SELECCIONAR = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.ComboForm)).BeginInit();
             this.SuspendLayout();
             // 
-            // ComboForm2
+            // ComboForm
             // 
-            this.ComboForm2.AllowUserToAddRows = false;
-            this.ComboForm2.AllowUserToDeleteRows = false;
+            this.ComboForm.AllowUserToAddRows = false;
+            this.ComboForm.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ComboForm2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.ComboForm2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.ComboForm2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.ComboForm2.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ComboForm2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ComboForm2.ColumnHeadersVisible = false;
-            this.ComboForm2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ComboForm.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.ComboForm.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.ComboForm.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.ComboForm.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.ComboForm.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ComboForm.ColumnHeadersVisible = false;
+            this.ComboForm.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
-            this.ID_PRODUCTO,
-            this.IMAGEN,
+            this.Ruta_Imagen,
             this.DESCRIPCION,
             this.PRECIO,
             this.CANTIDAD,
-            this.RUTA});
-            this.ComboForm2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComboForm2.Location = new System.Drawing.Point(0, 0);
-            this.ComboForm2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.ComboForm2.Name = "ComboForm2";
-            this.ComboForm2.ReadOnly = true;
-            this.ComboForm2.RowHeadersVisible = false;
-            this.ComboForm2.RowHeadersWidth = 51;
-            this.ComboForm2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ComboForm2.Size = new System.Drawing.Size(1067, 554);
-            this.ComboForm2.TabIndex = 1;
-            this.ComboForm2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ComboForm_CellContentClick);
+            this.SELECCIONAR});
+            this.ComboForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ComboForm.Location = new System.Drawing.Point(0, 0);
+            this.ComboForm.Margin = new System.Windows.Forms.Padding(4);
+            this.ComboForm.Name = "ComboForm";
+            this.ComboForm.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ComboForm.RowHeadersVisible = false;
+            this.ComboForm.RowHeadersWidth = 51;
+            this.ComboForm.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.ComboForm.Size = new System.Drawing.Size(1011, 533);
+            this.ComboForm.TabIndex = 1;
+            this.ComboForm.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ComboForm_CellContentClick);
             // 
             // ID
             // 
@@ -79,24 +78,15 @@
             this.ID.HeaderText = "ID";
             this.ID.MinimumWidth = 6;
             this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
             this.ID.Visible = false;
             // 
-            // ID_PRODUCTO
+            // Ruta_Imagen
             // 
-            this.ID_PRODUCTO.DataPropertyName = "id_producto";
-            this.ID_PRODUCTO.HeaderText = "ID_PRODUCTO";
-            this.ID_PRODUCTO.MinimumWidth = 6;
-            this.ID_PRODUCTO.Name = "ID_PRODUCTO";
-            this.ID_PRODUCTO.ReadOnly = true;
-            // 
-            // IMAGEN
-            // 
-            this.IMAGEN.DataPropertyName = "imagen";
-            this.IMAGEN.HeaderText = "IMAGEN";
-            this.IMAGEN.MinimumWidth = 6;
-            this.IMAGEN.Name = "IMAGEN";
-            this.IMAGEN.ReadOnly = true;
+            this.Ruta_Imagen.DataPropertyName = "Imagen";
+            this.Ruta_Imagen.HeaderText = "IMAGEN";
+            this.Ruta_Imagen.Image = ((System.Drawing.Image)(resources.GetObject("Ruta_Imagen.Image")));
+            this.Ruta_Imagen.MinimumWidth = 6;
+            this.Ruta_Imagen.Name = "Ruta_Imagen";
             // 
             // DESCRIPCION
             // 
@@ -104,7 +94,6 @@
             this.DESCRIPCION.HeaderText = "DESCRIPCION";
             this.DESCRIPCION.MinimumWidth = 6;
             this.DESCRIPCION.Name = "DESCRIPCION";
-            this.DESCRIPCION.ReadOnly = true;
             this.DESCRIPCION.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.DESCRIPCION.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
@@ -117,7 +106,6 @@
             this.PRECIO.HeaderText = "PRECIO";
             this.PRECIO.MinimumWidth = 6;
             this.PRECIO.Name = "PRECIO";
-            this.PRECIO.ReadOnly = true;
             this.PRECIO.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.PRECIO.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
@@ -130,42 +118,40 @@
             this.CANTIDAD.HeaderText = "CANTIDAD";
             this.CANTIDAD.MinimumWidth = 6;
             this.CANTIDAD.Name = "CANTIDAD";
-            this.CANTIDAD.ReadOnly = true;
             this.CANTIDAD.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.CANTIDAD.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // RUTA
+            // SELECCIONAR
             // 
-            this.RUTA.DataPropertyName = "ruta";
-            this.RUTA.HeaderText = "RUTA";
-            this.RUTA.MinimumWidth = 6;
-            this.RUTA.Name = "RUTA";
-            this.RUTA.ReadOnly = true;
+            this.SELECCIONAR.DataPropertyName = "seleccionar";
+            this.SELECCIONAR.HeaderText = "SELECCIONAR";
+            this.SELECCIONAR.MinimumWidth = 6;
+            this.SELECCIONAR.Name = "SELECCIONAR";
+            this.SELECCIONAR.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // CarritoForm
+            // VentaComidas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1011, 533);
             this.ControlBox = false;
-            this.Controls.Add(this.ComboForm2);
+            this.Controls.Add(this.ComboForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "CarritoForm";
-            ((System.ComponentModel.ISupportInitialize)(this.ComboForm2)).EndInit();
+            this.Name = "VentaComidas";
+            this.Text = "VentaComidas";
+            ((System.ComponentModel.ISupportInitialize)(this.ComboForm)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView ComboForm2;
+        private System.Windows.Forms.DataGridView ComboForm;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID_PRODUCTO;
-        private System.Windows.Forms.DataGridViewImageColumn IMAGEN;
+        private System.Windows.Forms.DataGridViewImageColumn Ruta_Imagen;
         private System.Windows.Forms.DataGridViewTextBoxColumn DESCRIPCION;
         private System.Windows.Forms.DataGridViewTextBoxColumn PRECIO;
         private System.Windows.Forms.DataGridViewTextBoxColumn CANTIDAD;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RUTA;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn SELECCIONAR;
     }
 }

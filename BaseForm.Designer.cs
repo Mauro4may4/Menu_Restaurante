@@ -314,6 +314,7 @@ namespace Menu_Restaurante
             this.BotonAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BotonAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BotonAgregar.UseVisualStyleBackColor = false;
+            this.BotonAgregar.Click += new System.EventHandler(this.BotonAgregar_Click);
             // 
             // PanelPrincipal
             // 

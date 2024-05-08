@@ -19,6 +19,7 @@ namespace Menu_Restaurante
 {
     public partial class productoForm : Form
     {
+        
         public productoForm()
         {
             InitializeComponent();
@@ -42,22 +43,26 @@ namespace Menu_Restaurante
                 textprecio.Text = dataGridView1.CurrentRow.Cells["PRECIO"].Value.ToString();
                 textDescription.Text = dataGridView1.CurrentRow.Cells["DESCRIPCION"].Value.ToString();
                 Categoria.Text = dataGridView1.CurrentRow.Cells["Categorias"].Value.ToString();
-                textRuta.Text = dataGridView1.CurrentRow.Cells["Ruta_Imagen"].Value.ToString();
+              
 
-                SaveImage.Image = Image.FromFile(textRuta.Text);
+               
             }
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            OpenFileDialog file = new OpenFileDialog();
-            file.Filter = "Archivo de imágenes (*.jpg; *.png;) | *.jpg; *.png;";
-            if (file.ShowDialog() == DialogResult.OK)
-            {
-                SaveImage.Image = Image.FromFile(file.FileName); // Muestra la imagen seleccionada
-                SaveImage.Text = file.FileName; // Asigna la ruta al cuadro de texto
-            }
+            
         }
+
+        private byte[] GetBytes(Image imageIN)
+        {
+            MemoryStream ms = new MemoryStream();
+            imageIN.Save(ms, ImageFormat.Png);  
+            return ms.ToArray();
+        }
+        
+  
+
 
 
         private void button1_Click(object sender, EventArgs e)
@@ -109,9 +114,8 @@ namespace Menu_Restaurante
             textID.Text = "0";
             textDescription.Clear();
             textprecio.Clear();
-            textRuta.Clear();
             Categoria.SelectedIndex = -1;
-            SaveImage.Image = null;
+           
 
             textDescription.Focus();
         }
@@ -129,14 +133,15 @@ namespace Menu_Restaurante
 
                 if (Convert.ToInt32(textID.Text) >= 1 && Convert.ToInt32(textID.Text) <= 100)
                 {
-                    OleDbCommand cmd = new OleDbCommand("insert into productos (Id_producto,descripcion,precio,Ruta_imagen,categorias) values('" + textID.Text + "','" + textDescription.Text + "','" + textprecio.Text + "','" + textRuta.Text + "','" + Categoria.Text + "')", oleCon);
+
+                    OleDbCommand cmd = new OleDbCommand("insert into productos (Id_producto,descripcion,precio,categorias) values('" + textID.Text + "','" + textDescription.Text + "','" + textprecio.Text  + "','" + Categoria.Text + "')", oleCon);
                     cmd.ExecuteNonQuery();
 
                     Poblar();
                 }
                 else
                 {
-                    OleDbCommand cmd = new OleDbCommand("update productos set descripcion='" + textDescription.Text + "',precio='" + textprecio.Text + "',Ruta_Imagen='" + textRuta.Text + "',Categorias='" + Categoria.Text + "' where Id_producto=" + textID.Text, oleCon);
+                    OleDbCommand cmd = new OleDbCommand("update productos set descripcion='" + textDescription.Text + "',precio='" + textprecio.Text + "',Categorias='" + Categoria.Text + "' where Id_producto=" + textID.Text, oleCon);
                     cmd.ExecuteNonQuery();
 
                     Poblar();
@@ -172,16 +177,6 @@ namespace Menu_Restaurante
         private void button4_Click(object sender, EventArgs e)
         {
             Poblar();
-        }
-
-        private void textDescription_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textprecio_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

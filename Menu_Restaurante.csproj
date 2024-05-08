@@ -91,17 +91,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RestaurantDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="TicketForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TicketForm.Designer.cs">
-      <DependentUpon>TicketForm.cs</DependentUpon>
+    <Compile Include="RestaurantDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentaComidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentaComidas.Designer.cs">
+      <DependentUpon>VentaComidas.cs</DependentUpon>
     </Compile>
     <Compile Include="VentanaCombos.cs">
       <SubType>Form</SubType>
@@ -134,11 +139,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="TicketForm.resx">
-      <DependentUpon>TicketForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentaComidas.resx">
+      <DependentUpon>VentaComidas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaCombos.resx">
       <DependentUpon>VentanaCombos.cs</DependentUpon>
@@ -164,12 +169,29 @@
     <None Include="RestaurantDataSet.xss">
       <DependentUpon>RestaurantDataSet.xsd</DependentUpon>
     </None>
+    <None Include="RestaurantDataSet1.xsc">
+      <DependentUpon>RestaurantDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantDataSet1.xss">
+      <DependentUpon>RestaurantDataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\128px\Sandwich.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\128px\hamburguesa.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

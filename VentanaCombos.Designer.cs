@@ -30,11 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ComboForm = new System.Windows.Forms.DataGridView();
             this.restaurantDataSet = new Menu_Restaurante.RestaurantDataSet();
             this.restaurantDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -42,8 +39,10 @@
             this.productosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.productosTableAdapter = new Menu_Restaurante.RestaurantDataSetTableAdapters.ProductosTableAdapter();
             this.restaurantDataSetBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.restaurantDataSetBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IMAGEN = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Ruta_Imagen = new System.Windows.Forms.DataGridViewImageColumn();
             this.DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PRECIO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CANTIDAD = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,6 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSetBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSetBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSetBindingSource3)).BeginInit();
             this.SuspendLayout();
             // 
             // ComboForm
@@ -64,32 +64,25 @@
             this.ComboForm.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.ComboForm.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ComboForm.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.ComboForm.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ComboForm.BackgroundColor = System.Drawing.SystemColors.Control;
             this.ComboForm.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ComboForm.ColumnHeadersVisible = false;
             this.ComboForm.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
-            this.IMAGEN,
+            this.Ruta_Imagen,
             this.DESCRIPCION,
             this.PRECIO,
             this.CANTIDAD,
             this.SELECCIONAR});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.ControlLight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ComboForm.DefaultCellStyle = dataGridViewCellStyle6;
             this.ComboForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ComboForm.Location = new System.Drawing.Point(0, 0);
+            this.ComboForm.Margin = new System.Windows.Forms.Padding(4);
             this.ComboForm.Name = "ComboForm";
             this.ComboForm.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ComboForm.RowHeadersVisible = false;
             this.ComboForm.RowHeadersWidth = 51;
             this.ComboForm.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ComboForm.Size = new System.Drawing.Size(800, 450);
+            this.ComboForm.Size = new System.Drawing.Size(1067, 554);
             this.ComboForm.TabIndex = 0;
             this.ComboForm.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -122,28 +115,39 @@
             this.restaurantDataSetBindingSource2.DataSource = this.restaurantDataSet;
             this.restaurantDataSetBindingSource2.Position = 0;
             // 
+            // restaurantDataSetBindingSource3
+            // 
+            this.restaurantDataSetBindingSource3.DataSource = this.restaurantDataSet;
+            this.restaurantDataSetBindingSource3.Position = 0;
+            // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.DataPropertyName = "Imagen";
+            this.dataGridViewImageColumn1.HeaderText = "IMAGEN";
+            this.dataGridViewImageColumn1.Image = global::Menu_Restaurante.Properties.Resources.hamburguesa;
+            this.dataGridViewImageColumn1.MinimumWidth = 6;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            this.dataGridViewImageColumn1.Width = 213;
+            // 
             // ID
             // 
             this.ID.DataPropertyName = "id";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ID.DefaultCellStyle = dataGridViewCellStyle2;
             this.ID.HeaderText = "ID";
             this.ID.MinimumWidth = 6;
             this.ID.Name = "ID";
             this.ID.Visible = false;
             // 
-            // IMAGEN
+            // Ruta_Imagen
             // 
-            this.IMAGEN.DataPropertyName = "imagen";
-            this.IMAGEN.HeaderText = "IMAGEN";
-            this.IMAGEN.MinimumWidth = 6;
-            this.IMAGEN.Name = "IMAGEN";
+            this.Ruta_Imagen.DataPropertyName = "Imagen";
+            this.Ruta_Imagen.HeaderText = "IMAGEN";
+            this.Ruta_Imagen.Image = global::Menu_Restaurante.Properties.Resources.Sandwich;
+            this.Ruta_Imagen.MinimumWidth = 6;
+            this.Ruta_Imagen.Name = "Ruta_Imagen";
             // 
             // DESCRIPCION
             // 
             this.DESCRIPCION.DataPropertyName = "descripcion";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.DESCRIPCION.DefaultCellStyle = dataGridViewCellStyle3;
             this.DESCRIPCION.HeaderText = "DESCRIPCION";
             this.DESCRIPCION.MinimumWidth = 6;
             this.DESCRIPCION.Name = "DESCRIPCION";
@@ -153,10 +157,9 @@
             // PRECIO
             // 
             this.PRECIO.DataPropertyName = "precio";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.Format = "C2";
-            dataGridViewCellStyle4.NullValue = "0";
-            this.PRECIO.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Format = "C2";
+            dataGridViewCellStyle2.NullValue = "0";
+            this.PRECIO.DefaultCellStyle = dataGridViewCellStyle2;
             this.PRECIO.HeaderText = "PRECIO";
             this.PRECIO.MinimumWidth = 6;
             this.PRECIO.Name = "PRECIO";
@@ -166,10 +169,9 @@
             // CANTIDAD
             // 
             this.CANTIDAD.DataPropertyName = "cantidad";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.Format = "N0";
-            dataGridViewCellStyle5.NullValue = "0";
-            this.CANTIDAD.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle3.Format = "N0";
+            dataGridViewCellStyle3.NullValue = "0";
+            this.CANTIDAD.DefaultCellStyle = dataGridViewCellStyle3;
             this.CANTIDAD.HeaderText = "CANTIDAD";
             this.CANTIDAD.MinimumWidth = 6;
             this.CANTIDAD.Name = "CANTIDAD";
@@ -186,12 +188,13 @@
             // 
             // VentanaCombos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.ControlBox = false;
             this.Controls.Add(this.ComboForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "VentanaCombos";
             this.Load += new System.EventHandler(this.VentanaCombos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ComboForm)).EndInit();
@@ -200,6 +203,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSetBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSetBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSetBindingSource3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -213,8 +217,10 @@
         private System.Windows.Forms.BindingSource productosBindingSource;
         private RestaurantDataSetTableAdapters.ProductosTableAdapter productosTableAdapter;
         private System.Windows.Forms.BindingSource restaurantDataSetBindingSource2;
+        private System.Windows.Forms.BindingSource restaurantDataSetBindingSource3;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewImageColumn IMAGEN;
+        private System.Windows.Forms.DataGridViewImageColumn Ruta_Imagen;
         private System.Windows.Forms.DataGridViewTextBoxColumn DESCRIPCION;
         private System.Windows.Forms.DataGridViewTextBoxColumn PRECIO;
         private System.Windows.Forms.DataGridViewTextBoxColumn CANTIDAD;
