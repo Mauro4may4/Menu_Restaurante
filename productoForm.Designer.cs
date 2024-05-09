@@ -54,9 +54,8 @@
             this.panel1.Controls.Add(this.RegistroProductos);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1267, 94);
+            this.panel1.Size = new System.Drawing.Size(950, 76);
             this.panel1.TabIndex = 0;
             // 
             // RegistroProductos
@@ -65,10 +64,9 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.RegistroProductos.AutoSize = true;
             this.RegistroProductos.Font = new System.Drawing.Font("Bell MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegistroProductos.Location = new System.Drawing.Point(37, 26);
-            this.RegistroProductos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.RegistroProductos.Location = new System.Drawing.Point(28, 21);
             this.RegistroProductos.Name = "RegistroProductos";
-            this.RegistroProductos.Size = new System.Drawing.Size(350, 39);
+            this.RegistroProductos.Size = new System.Drawing.Size(280, 31);
             this.RegistroProductos.TabIndex = 0;
             this.RegistroProductos.Text = "Registro de Productos";
             // 
@@ -76,20 +74,18 @@
             // 
             this.textDescription.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.textDescription.Location = new System.Drawing.Point(216, 180);
-            this.textDescription.Margin = new System.Windows.Forms.Padding(4);
+            this.textDescription.Location = new System.Drawing.Point(162, 146);
             this.textDescription.Name = "textDescription";
-            this.textDescription.Size = new System.Drawing.Size(404, 22);
+            this.textDescription.Size = new System.Drawing.Size(304, 20);
             this.textDescription.TabIndex = 1;
             // 
             // Id
             // 
             this.Id.AutoSize = true;
             this.Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Id.Location = new System.Drawing.Point(71, 142);
-            this.Id.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Id.Location = new System.Drawing.Point(53, 115);
             this.Id.Name = "Id";
-            this.Id.Size = new System.Drawing.Size(31, 25);
+            this.Id.Size = new System.Drawing.Size(26, 20);
             this.Id.TabIndex = 2;
             this.Id.Text = "ID";
             this.Id.Click += new System.EventHandler(this.Id_Click);
@@ -99,23 +95,22 @@
             this.Categoria.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.Categoria.FormattingEnabled = true;
-            this.Categoria.Location = new System.Drawing.Point(215, 274);
-            this.Categoria.Margin = new System.Windows.Forms.Padding(4);
+            this.Categoria.Location = new System.Drawing.Point(161, 223);
             this.Categoria.Name = "Categoria";
-            this.Categoria.Size = new System.Drawing.Size(405, 24);
+            this.Categoria.Size = new System.Drawing.Size(305, 21);
             this.Categoria.TabIndex = 3;
             this.Categoria.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 412);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 335);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(1249, 217);
+            this.dataGridView1.Size = new System.Drawing.Size(959, 189);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -123,10 +118,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(71, 180);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(53, 146);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 25);
+            this.label1.Size = new System.Drawing.Size(92, 20);
             this.label1.TabIndex = 5;
             this.label1.Text = "Descripción";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -135,10 +129,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(69, 226);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(52, 184);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 25);
+            this.label2.Size = new System.Drawing.Size(53, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "Precio";
             // 
@@ -146,20 +139,18 @@
             // 
             this.textprecio.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.textprecio.Location = new System.Drawing.Point(215, 226);
-            this.textprecio.Margin = new System.Windows.Forms.Padding(4);
+            this.textprecio.Location = new System.Drawing.Point(161, 184);
             this.textprecio.Name = "textprecio";
-            this.textprecio.Size = new System.Drawing.Size(405, 22);
+            this.textprecio.Size = new System.Drawing.Size(305, 20);
             this.textprecio.TabIndex = 6;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(69, 272);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(52, 221);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 25);
+            this.label3.Size = new System.Drawing.Size(78, 20);
             this.label3.TabIndex = 9;
             this.label3.Text = "Categoría";
             // 
@@ -167,19 +158,16 @@
             // 
             this.textboxbuscar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textboxbuscar.Location = new System.Drawing.Point(75, 364);
-            this.textboxbuscar.Margin = new System.Windows.Forms.Padding(4);
+            this.textboxbuscar.Location = new System.Drawing.Point(56, 296);
             this.textboxbuscar.Name = "textboxbuscar";
-            this.textboxbuscar.Size = new System.Drawing.Size(436, 22);
+            this.textboxbuscar.Size = new System.Drawing.Size(328, 20);
             this.textboxbuscar.TabIndex = 12;
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnNuevo.Location = new System.Drawing.Point(653, 180);
-            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNuevo.Location = new System.Drawing.Point(490, 146);
             this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(160, 30);
+            this.btnNuevo.Size = new System.Drawing.Size(120, 24);
             this.btnNuevo.TabIndex = 13;
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.UseVisualStyleBackColor = true;
@@ -187,11 +175,9 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.btnGuardar.Location = new System.Drawing.Point(655, 226);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGuardar.Location = new System.Drawing.Point(491, 184);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(160, 30);
+            this.btnGuardar.Size = new System.Drawing.Size(120, 24);
             this.btnGuardar.TabIndex = 14;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
@@ -199,10 +185,9 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(661, 270);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEliminar.Location = new System.Drawing.Point(492, 219);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(160, 30);
+            this.btnEliminar.Size = new System.Drawing.Size(120, 24);
             this.btnEliminar.TabIndex = 15;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -210,10 +195,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(535, 362);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button4.Location = new System.Drawing.Point(401, 294);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(160, 30);
+            this.button4.Size = new System.Drawing.Size(120, 24);
             this.button4.TabIndex = 16;
             this.button4.Text = "Buscar";
             this.button4.UseVisualStyleBackColor = true;
@@ -223,18 +208,17 @@
             // 
             this.textID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.textID.Location = new System.Drawing.Point(216, 142);
-            this.textID.Margin = new System.Windows.Forms.Padding(4);
+            this.textID.Location = new System.Drawing.Point(162, 115);
             this.textID.Name = "textID";
-            this.textID.Size = new System.Drawing.Size(143, 22);
+            this.textID.Size = new System.Drawing.Size(108, 20);
             this.textID.TabIndex = 18;
             this.textID.TextChanged += new System.EventHandler(this.textID_TextChanged);
             // 
             // productoForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1267, 644);
+            this.ClientSize = new System.Drawing.Size(950, 523);
             this.Controls.Add(this.textID);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btnEliminar);
@@ -250,7 +234,6 @@
             this.Controls.Add(this.Id);
             this.Controls.Add(this.textDescription);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "productoForm";
             this.Text = "productoForm";
             this.Load += new System.EventHandler(this.productoForm_Load);
