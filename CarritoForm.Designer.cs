@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ComboForm2 = new System.Windows.Forms.DataGridView();
@@ -57,15 +58,22 @@
             this.DESCRIPCION,
             this.PRECIO,
             this.CANTIDAD});
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.ControlLight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ComboForm2.DefaultCellStyle = dataGridViewCellStyle4;
             this.ComboForm2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ComboForm2.Location = new System.Drawing.Point(0, 0);
-            this.ComboForm2.Margin = new System.Windows.Forms.Padding(4);
             this.ComboForm2.Name = "ComboForm2";
             this.ComboForm2.ReadOnly = true;
             this.ComboForm2.RowHeadersVisible = false;
             this.ComboForm2.RowHeadersWidth = 51;
             this.ComboForm2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ComboForm2.Size = new System.Drawing.Size(1067, 554);
+            this.ComboForm2.Size = new System.Drawing.Size(800, 450);
             this.ComboForm2.TabIndex = 1;
             this.ComboForm2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ComboForm_CellContentClick);
             this.ComboForm2.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.ComboForm2_CellEndEdit);
@@ -125,13 +133,12 @@
             // 
             // CarritoForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
             this.Controls.Add(this.ComboForm2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CarritoForm";
             this.Load += new System.EventHandler(this.CarritoForm_Load);
             this.VisibleChanged += new System.EventHandler(this.CarritoForm_VisibleChanged_1);

@@ -264,9 +264,22 @@ namespace Menu_Restaurante
 
         }
 
-
-
         OleDbConnection conex = new OleDbConnection("Provider=SQLOLEDB;Data Source=restaurantssq.database.windows.net;Initial Catalog=Restaurant;Persist Security Info=True;User ID=Toto28;Password=Toto2323;");
+        private void LoadData()
+        {
+            OleDbConnection conex = new OleDbConnection("Provider=SQLOLEDB;Data Source=restaurantssq.database.windows.net;Initial Catalog=Restaurant;Persist Security Info=True;User ID=Toto28;Password=Toto2323;");
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conex.Open();
+                SqlDataAdapter da = new SqlDataAdapter("SELECT id as ID, descripcion as descripcion, cantidad as cantidad, precio as precio FROM Combos ", conn);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                dataGridView1.DataSource = dt;
+                dataGridView1.Columns[0].ReadOnly = true;
+            }
+
+        }
+
         public void BotonAgregar_Click(object sender, EventArgs e)
         {
             using (OleDbConnection conex = new OleDbConnection("Provider=SQLOLEDB;Data Source=restaurantssq.database.windows.net;Initial Catalog=Restaurant;Persist Security Info=True;User ID=Toto28;Password=Toto2323;"))
@@ -301,6 +314,8 @@ namespace Menu_Restaurante
                 }
                 MessageBox.Show($"Filas añadidas:{totalFilasAgregadas}", "Mensaje!!");
                 totalFilasAgregadas = 0;
+                //LoadData();
+
                 // Iterar sobre todas las ventanas abiertas
                 //foreach (Form form in Application.OpenForms)
                 //{
