@@ -16,23 +16,33 @@ using System.Data.OleDb;
 
 
 
+
 namespace Menu_Restaurante
 {
     public partial class BaseForm : Form
     {
-        conexion conex = new conexion();
-        Categorias ct = new Categorias();
-
-
+        private OleDbDataAdapter da;
+        private OleDbConnection oleCon = new OleDbConnection("Provider=SQLOLEDB;Data Source=restaurantssq.database.windows.net;Initial Catalog=Restaurant;Persist Security Info=True;User ID=Toto28;Password=Toto2323;");
+        private TicketForm miTicket;
+        public DataGridView dataGridView1 = new DataGridView();
 
         public BaseForm()
         {
             InitializeComponent();
 
-
+            miTicket = new TicketForm();
+            
 
 
         }
+
+        private void label11_Click(object sender, EventArgs e)
+{
+    // Aquí puedes agregar la lógica que deseas ejecutar cuando se haga clic en el label11
+    // Por ejemplo:
+    MessageBox.Show("¡Se hizo clic en el label11!");
+}
+
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -114,12 +124,52 @@ namespace Menu_Restaurante
 
         private void button2_Click(object sender, EventArgs e)
         {
+          
+                var otherForms = Application.OpenForms.Cast<Form>()
+               .Where(f => f != this) // Exclude the current form
+               .ToList();
 
+            AbrirFormHijo(new VentanaBebidas());
+
+            if (otherForms.Any()) // Check if there are any child forms to close
+                        {
+                            otherForms.ForEach(form => form.Close());
+                        }
+
+                        // Ensure ventanaCombos is initialized before using it
+                        if (ventanaCombos != null)
+                        {
+                            ventanaCombos.MdiParent = this;
+                            PanelPrincipal.Controls.Add(ventanaCombos);
+                            ventanaCombos.Categoria = "Bebidas";
+                            ventanaCombos.Show();
+                            ventanaCombos.WindowState = FormWindowState.Maximized;
+
+
+
+
+                        }
+                        else
+                        {
+
+                        }
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+          
             var otherForms = Application.OpenForms.Cast<Form>()
    .Where(f => f != this) // Exclude the current form
    .ToList();
 
-            AbrirFormHijo(new VentaComidas());
+            AbrirFormHijo(new ventaPostres());
+
 
             if (otherForms.Any()) // Check if there are any child forms to close
             {
@@ -131,29 +181,16 @@ namespace Menu_Restaurante
             {
                 ventanaCombos.MdiParent = this;
                 PanelPrincipal.Controls.Add(ventanaCombos);
-                ventanaCombos.Categoria = "Bebidas";
+                ventanaCombos.Categoria = "Postres";
                 ventanaCombos.Show();
                 ventanaCombos.WindowState = FormWindowState.Maximized;
 
 
-
-                SqlConnection cn = conex.LeerCadena();
             }
             else
             {
 
             }
-
-        }
-
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            AbrirFormHijo(new VentanaCombos());
 
 
 
@@ -167,11 +204,21 @@ namespace Menu_Restaurante
             fp.ShowDialog();
         }
 
+        private VentanaComidas ventanaComidas;
         private VentanaCombos ventanaCombos;
+        private CarritoForm carritoForm;
+        private CarritoForm cr;
 
         private void baseForm_Resize(object sender, EventArgs e)
         {
             InitializeComponent();
+
+            cr = new CarritoForm();
+            cr.ShowDialog();
+            carritoForm = new CarritoForm();
+            carritoForm.Show();
+            carritoForm.WindowState = FormWindowState.Maximized; 
+
             ventanaCombos = new VentanaCombos();
             ventanaCombos.Show();
             ventanaCombos.WindowState = FormWindowState.Maximized;
@@ -188,54 +235,124 @@ namespace Menu_Restaurante
 
         }
 
-        private void BotonAgregar_Click(object sender, EventArgs e)
+        
+        public void CalculaTotal()
         {
-          /*  SqlConnection conex = new SqlConnection("Data Source = restaurantssq.database.windows.net; Initial Catalog = Restaurant; Persist Security Info = True; User ID = Toto28; Password = Toto2323; TrustServerCertificate = True");
-            OleDbConnection oleCon = new OleDbConnection("Provider=SQLOLEDB;Data Source=restaurantssq.database.windows.net;Initial Catalog=Restaurant;Persist Security Info=True;User ID=Toto28;Password=Toto2323;");
+            // Crear una instancia de OleDbDataAdapter y DataSet
+            OleDbDataAdapter da = new OleDbDataAdapter("select * from detalles_combo", conex);
+            DataSet ds = new DataSet();
+
+            // Llenar el DataSet con los datos del adaptador
+            da.Fill(ds);
+
+            // Inicializar el texto de lbTOTAL
+            Total.Text = "0";
+
+            // Verificar si el DataSet tiene alguna fila
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                // Iterar a través de las filas del DataSet
+                foreach (DataRow fila in ds.Tables[0].Rows)
+                {
+                    // Sumar al total el producto de cantidad y precio de cada fila
+                    Total.Text = (Convert.ToDouble(Total.Text) + (Convert.ToDouble(fila["cantidad"]) * Convert.ToDouble(fila["precio"]))).ToString();
+                }
+            }
+
+            // Formatear el texto de lbTOTAL con el formato "standard"
+            Total.Text = Convert.ToDouble(Total.Text).ToString("N");
+
+        }
 
 
-            foreach (Form frm in Application.OpenForms)
-             {
-                 if (frm.Name == "comboForm2")
-                 {
-                     foreach (DataGridViewRow row in ((CarritoForm)frm).DataGridView1.Rows)
-                     {
-                         if ((bool)row.Cells["SELECCIONAR"].Value) // Assuming "SELECCIONAR" cell contains a boolean value
-                         {
-                             string id = row.Cells["ID"].Value.ToString();
-                             string descripcion = row.Cells["DESCRIPCION"].Value.ToString();
-                             string cantidad = row.Cells["CANTIDAD"].Value?.ToString(); // Handle null value
-                             string precio = row.Cells["PRECIO"].Value.ToString();
-               
 
-                             OleDbCommand cmd = new OleDbCommand("insert into detalles_combo(id_producto,descripcion,cantidad,precio) values(@id, @descripcion, @cantidad, @precio)", oleCon);
-                             cmd.Parameters.AddWithValue("@id", id);
-                             cmd.Parameters.AddWithValue("@descripcion", descripcion);
-                             cmd.Parameters.AddWithValue("@cantidad", cantidad);
-                             cmd.Parameters.AddWithValue("@precio", precio);
-                        
-                             cmd.ExecuteNonQuery();
-                         }
-                     }
+        OleDbConnection conex = new OleDbConnection("Provider=SQLOLEDB;Data Source=restaurantssq.database.windows.net;Initial Catalog=Restaurant;Persist Security Info=True;User ID=Toto28;Password=Toto2323;");
+        public void BotonAgregar_Click(object sender, EventArgs e)
+        {
+            using (OleDbConnection conex = new OleDbConnection("Provider=SQLOLEDB;Data Source=restaurantssq.database.windows.net;Initial Catalog=Restaurant;Persist Security Info=True;User ID=Toto28;Password=Toto2323;"))
+            {
+                conex.Open();
 
-                     ((CarritoForm)frm).Close();
-                     break; // Exit after finding the "comboForm"
-                 }
-             }
+                // Iterar sobre todas las ventanas abiertas
+                foreach (Form form in Application.OpenForms)
+                {
+                    // Verificar si el formulario actual tiene un DataGridView
+                    if (form is VentanaComidas && form is ventaPostres && form is VentanaBebidas && form is VentanaCombos)
+                    {
+                        DataGridView dataGridView = ((DataGridView)form.Controls["dataGridView1"]);
 
-             CalculaTotal();
+                        // Verificar si se encuentra el DataGridView en el formulario actual
+                        if (dataGridView != null)
+                        {
+                            // Iterar sobre las filas seleccionadas del DataGridView
+                            foreach (DataGridViewRow fila in dataGridView.Rows)
+                            {
+                                // Verificar si la fila está seleccionada
+                                if (fila.Selected)
+                                {
+                                    // Obtener los valores de las celdas de la fila seleccionada
+                                  
+                                    string descripcion = fila.Cells["DESCRIPCION"].Value.ToString();
+                                    double precio = Convert.ToDouble(fila.Cells["PRECIO"].Value);
+                                    int cantidad = Convert.ToInt32(fila.Cells["CANTIDAD"].Value);
 
-             // Close all other open forms except the current one (assuming CalculaTotal is defined elsewhere)
-             Application.OpenForms.Cast<Form>().Where(form => form != this).ToList().ForEach(form => form.Close());
+                                    // Insertar los valores en la tabla detalles_combo
+                                    string query = "INSERT into detalles_combo (descripcion, Cantidad, Precio) VALUES (@descripcion, @cantidad, @precio)";
+                                    using (OleDbCommand cmd = new OleDbCommand(query, conex))
+                                    {
+                                       
+                                        cmd.Parameters.AddWithValue("@descripcion", descripcion);
+                                        cmd.Parameters.AddWithValue("@cantidad", cantidad);
+                                        cmd.Parameters.AddWithValue("@precio", precio);
 
-             Carrito.MdiParent = this;
-             PanelPrincipal.Controls.Add(carritoForm);
-             carritoForm.Show();
-             carritoForm.WindowState = FormWindowState.Maximized; // Set directly to maximized
+                                        cmd.ExecuteNonQuery();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
 
-             lbOpcion.Text = "Carrito";
-            */
-         }
+                CalculaTotal();
+            }
+           
+            // Cerrar los formularios excepto el formulario actual
+            foreach (Form form in Application.OpenForms.Cast<Form>().Except(new Form[] { this }).ToList())
+            {
+                form.Close();
+            }
+
+            // Crear e inicializar carritoForm
+            carritoForm = new CarritoForm();
+            carritoForm.MdiParent = this;
+            carritoForm.WindowState = FormWindowState.Maximized;
+            PanelPrincipal.Controls.Add(carritoForm);
+            carritoForm.Show();
+
+        }
+
+
+
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            AbrirFormHijo(new VentanaComidas());
+        }
+
+        public void Total_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BotonCompletar_Click(object sender, EventArgs e)
+        {
+            TicketForm tk = new TicketForm();
+            tk.ShowDialog();
+            tk.Show();
         }
     }
+
+}
+        
+    
 

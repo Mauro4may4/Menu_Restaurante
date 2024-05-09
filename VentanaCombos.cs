@@ -17,7 +17,7 @@ namespace Menu_Restaurante
         private SqlDataAdapter da;
         private DataSet ds;
         public string Categoria = "";
-        private DataGridView dataGridView1 = new DataGridView();
+        public DataGridView dataGridView1 = new DataGridView();
         public VentanaCombos()
         {
             InitializeComponent();

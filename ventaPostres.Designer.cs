@@ -1,6 +1,6 @@
 ﻿namespace Menu_Restaurante
 {
-    partial class VentaComidas
+    partial class ventaPostres
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VentaComidas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ventaPostres));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ComboForm = new System.Windows.Forms.DataGridView();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ruta_Imagen = new System.Windows.Forms.DataGridViewImageColumn();
             this.DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -68,9 +69,19 @@
             this.ComboForm.RowHeadersVisible = false;
             this.ComboForm.RowHeadersWidth = 51;
             this.ComboForm.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ComboForm.Size = new System.Drawing.Size(1011, 533);
+            this.ComboForm.Size = new System.Drawing.Size(800, 450);
             this.ComboForm.TabIndex = 1;
             this.ComboForm.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ComboForm_CellContentClick);
+            this.ComboForm.VisibleChanged += new System.EventHandler(this.ComboForm_VisibleChanged);
+            // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.DataPropertyName = "Imagen";
+            this.dataGridViewImageColumn1.HeaderText = "IMAGEN";
+            this.dataGridViewImageColumn1.Image = global::Menu_Restaurante.Properties.Resources.Sandwich;
+            this.dataGridViewImageColumn1.MinimumWidth = 6;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            this.dataGridViewImageColumn1.Width = 159;
             // 
             // ID
             // 
@@ -129,16 +140,16 @@
             this.SELECCIONAR.Name = "SELECCIONAR";
             this.SELECCIONAR.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // VentaComidas
+            // ventaPostres
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1011, 533);
-            this.ControlBox = false;
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.ComboForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "VentaComidas";
-            this.Text = "VentaComidas";
+            this.Name = "ventaPostres";
+            this.Text = "ventaPostres";
+            this.Load += new System.EventHandler(this.ventaPostres_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ComboForm)).EndInit();
             this.ResumeLayout(false);
 
@@ -147,6 +158,7 @@
         #endregion
 
         private System.Windows.Forms.DataGridView ComboForm;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewImageColumn Ruta_Imagen;
         private System.Windows.Forms.DataGridViewTextBoxColumn DESCRIPCION;

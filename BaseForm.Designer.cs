@@ -37,9 +37,9 @@ namespace Menu_Restaurante
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.BotonCombos = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Total = new System.Windows.Forms.Label();
@@ -118,9 +118,9 @@ namespace Menu_Restaurante
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.BotonCombos);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 78);
@@ -129,6 +129,28 @@ namespace Menu_Restaurante
             this.panel1.Size = new System.Drawing.Size(287, 553);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
+            // 
+            // button1
+            // 
+            this.button1.AccessibleName = "a";
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(15, 59);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(257, 86);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "    Comidas";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button3
             // 
@@ -171,27 +193,6 @@ namespace Menu_Restaurante
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(15, 57);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(257, 91);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "   Comidas";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // BotonCombos
             // 
@@ -241,6 +242,7 @@ namespace Menu_Restaurante
             this.Total.Size = new System.Drawing.Size(21, 24);
             this.Total.TabIndex = 4;
             this.Total.Text = "0";
+            this.Total.Click += new System.EventHandler(this.Total_Click);
             // 
             // LbTotal
             // 
@@ -294,6 +296,7 @@ namespace Menu_Restaurante
             this.BotonCompletar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BotonCompletar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BotonCompletar.UseVisualStyleBackColor = false;
+            this.BotonCompletar.Click += new System.EventHandler(this.BotonCompletar_Click);
             // 
             // BotonAgregar
             // 
@@ -360,13 +363,13 @@ namespace Menu_Restaurante
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button BotonCombos;
         private System.Windows.Forms.Button BotonRemover;
         private System.Windows.Forms.Button BotonCompletar;
         private System.Windows.Forms.Button BotonAgregar;
-        private System.Windows.Forms.Label Total;
         private System.Windows.Forms.Label LbTotal;
+        private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Label Total;
     }
 }
 
