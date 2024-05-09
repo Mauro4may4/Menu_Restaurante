@@ -44,7 +44,6 @@ namespace Menu_Restaurante
             this.panel2 = new System.Windows.Forms.Panel();
             this.Total = new System.Windows.Forms.Label();
             this.LbTotal = new System.Windows.Forms.Label();
-            this.BotonRemover = new System.Windows.Forms.Button();
             this.BotonCompletar = new System.Windows.Forms.Button();
             this.BotonAgregar = new System.Windows.Forms.Button();
             this.PanelPrincipal = new System.Windows.Forms.Panel();
@@ -61,9 +60,8 @@ namespace Menu_Restaurante
             this.PanelSuperior.Controls.Add(this.label1);
             this.PanelSuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelSuperior.Location = new System.Drawing.Point(0, 0);
-            this.PanelSuperior.Margin = new System.Windows.Forms.Padding(4);
             this.PanelSuperior.Name = "PanelSuperior";
-            this.PanelSuperior.Size = new System.Drawing.Size(1324, 78);
+            this.PanelSuperior.Size = new System.Drawing.Size(993, 63);
             this.PanelSuperior.TabIndex = 2;
             this.PanelSuperior.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -77,10 +75,9 @@ namespace Menu_Restaurante
             this.button4.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(25)))), ((int)(((byte)(2)))));
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(1249, 0);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Location = new System.Drawing.Point(937, 0);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 78);
+            this.button4.Size = new System.Drawing.Size(56, 63);
             this.button4.TabIndex = 9;
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -93,10 +90,9 @@ namespace Menu_Restaurante
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Silver;
-            this.label2.Location = new System.Drawing.Point(689, 33);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(517, 27);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(130, 29);
+            this.label2.Size = new System.Drawing.Size(100, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "Restaurant";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -108,10 +104,9 @@ namespace Menu_Restaurante
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Silver;
-            this.label1.Location = new System.Drawing.Point(653, 11);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(490, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 29);
+            this.label1.Size = new System.Drawing.Size(113, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Eggscellent ";
             // 
@@ -123,10 +118,9 @@ namespace Menu_Restaurante
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.BotonCombos);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 78);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(0, 63);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(287, 553);
+            this.panel1.Size = new System.Drawing.Size(215, 450);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
@@ -141,10 +135,9 @@ namespace Menu_Restaurante
             this.button1.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(15, 59);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(11, 48);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(257, 86);
+            this.button1.Size = new System.Drawing.Size(193, 70);
             this.button1.TabIndex = 9;
             this.button1.Text = "    Comidas";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -162,10 +155,9 @@ namespace Menu_Restaurante
             this.button3.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(15, 418);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Location = new System.Drawing.Point(11, 340);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(257, 91);
+            this.button3.Size = new System.Drawing.Size(193, 74);
             this.button3.TabIndex = 8;
             this.button3.Text = "    Postres";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -183,10 +175,9 @@ namespace Menu_Restaurante
             this.button2.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(15, 305);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(11, 248);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(257, 91);
+            this.button2.Size = new System.Drawing.Size(193, 74);
             this.button2.TabIndex = 7;
             this.button2.Text = "    Bebidas";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -205,10 +196,9 @@ namespace Menu_Restaurante
             this.BotonCombos.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonCombos.ForeColor = System.Drawing.Color.White;
             this.BotonCombos.Image = ((System.Drawing.Image)(resources.GetObject("BotonCombos.Image")));
-            this.BotonCombos.Location = new System.Drawing.Point(16, 186);
-            this.BotonCombos.Margin = new System.Windows.Forms.Padding(4);
+            this.BotonCombos.Location = new System.Drawing.Point(12, 151);
             this.BotonCombos.Name = "BotonCombos";
-            this.BotonCombos.Size = new System.Drawing.Size(257, 86);
+            this.BotonCombos.Size = new System.Drawing.Size(193, 70);
             this.BotonCombos.TabIndex = 5;
             this.BotonCombos.Text = "    Combos";
             this.BotonCombos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -221,14 +211,12 @@ namespace Menu_Restaurante
             this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.Controls.Add(this.Total);
             this.panel2.Controls.Add(this.LbTotal);
-            this.panel2.Controls.Add(this.BotonRemover);
             this.panel2.Controls.Add(this.BotonCompletar);
             this.panel2.Controls.Add(this.BotonAgregar);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(287, 561);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(215, 456);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1037, 70);
+            this.panel2.Size = new System.Drawing.Size(778, 57);
             this.panel2.TabIndex = 4;
             // 
             // Total
@@ -236,10 +224,9 @@ namespace Menu_Restaurante
             this.Total.AutoSize = true;
             this.Total.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Total.ForeColor = System.Drawing.Color.Black;
-            this.Total.Location = new System.Drawing.Point(172, 25);
-            this.Total.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Total.Location = new System.Drawing.Point(129, 20);
             this.Total.Name = "Total";
-            this.Total.Size = new System.Drawing.Size(21, 24);
+            this.Total.Size = new System.Drawing.Size(18, 19);
             this.Total.TabIndex = 4;
             this.Total.Text = "0";
             this.Total.Click += new System.EventHandler(this.Total_Click);
@@ -249,48 +236,26 @@ namespace Menu_Restaurante
             this.LbTotal.AutoSize = true;
             this.LbTotal.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LbTotal.ForeColor = System.Drawing.Color.Black;
-            this.LbTotal.Location = new System.Drawing.Point(8, 25);
-            this.LbTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LbTotal.Location = new System.Drawing.Point(6, 20);
             this.LbTotal.Name = "LbTotal";
-            this.LbTotal.Size = new System.Drawing.Size(156, 24);
+            this.LbTotal.Size = new System.Drawing.Size(126, 19);
             this.LbTotal.TabIndex = 3;
             this.LbTotal.Text = "Total en carrito:";
-            // 
-            // BotonRemover
-            // 
-            this.BotonRemover.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BotonRemover.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.BotonRemover.FlatAppearance.BorderSize = 2;
-            this.BotonRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonRemover.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonRemover.ForeColor = System.Drawing.Color.White;
-            this.BotonRemover.Image = ((System.Drawing.Image)(resources.GetObject("BotonRemover.Image")));
-            this.BotonRemover.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BotonRemover.Location = new System.Drawing.Point(315, 7);
-            this.BotonRemover.Margin = new System.Windows.Forms.Padding(4);
-            this.BotonRemover.Name = "BotonRemover";
-            this.BotonRemover.Size = new System.Drawing.Size(204, 59);
-            this.BotonRemover.TabIndex = 2;
-            this.BotonRemover.Text = "   Remover";
-            this.BotonRemover.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BotonRemover.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BotonRemover.UseVisualStyleBackColor = false;
-            this.BotonRemover.Click += new System.EventHandler(this.BotonRemover_Click);
             // 
             // BotonCompletar
             // 
             this.BotonCompletar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BotonCompletar.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.BotonCompletar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BotonCompletar.FlatAppearance.BorderSize = 2;
             this.BotonCompletar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonCompletar.Font = new System.Drawing.Font("Bell MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonCompletar.ForeColor = System.Drawing.Color.White;
             this.BotonCompletar.Image = ((System.Drawing.Image)(resources.GetObject("BotonCompletar.Image")));
             this.BotonCompletar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BotonCompletar.Location = new System.Drawing.Point(527, 7);
-            this.BotonCompletar.Margin = new System.Windows.Forms.Padding(4);
+            this.BotonCompletar.Location = new System.Drawing.Point(395, 6);
             this.BotonCompletar.Name = "BotonCompletar";
-            this.BotonCompletar.Size = new System.Drawing.Size(247, 59);
+            this.BotonCompletar.Size = new System.Drawing.Size(185, 48);
             this.BotonCompletar.TabIndex = 1;
             this.BotonCompletar.Text = " Completar Compra";
             this.BotonCompletar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -302,16 +267,16 @@ namespace Menu_Restaurante
             // 
             this.BotonAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BotonAgregar.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.BotonAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BotonAgregar.FlatAppearance.BorderSize = 2;
             this.BotonAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonAgregar.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonAgregar.ForeColor = System.Drawing.Color.White;
             this.BotonAgregar.Image = ((System.Drawing.Image)(resources.GetObject("BotonAgregar.Image")));
             this.BotonAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BotonAgregar.Location = new System.Drawing.Point(781, 7);
-            this.BotonAgregar.Margin = new System.Windows.Forms.Padding(4);
+            this.BotonAgregar.Location = new System.Drawing.Point(586, 6);
             this.BotonAgregar.Name = "BotonAgregar";
-            this.BotonAgregar.Size = new System.Drawing.Size(247, 59);
+            this.BotonAgregar.Size = new System.Drawing.Size(185, 48);
             this.BotonAgregar.TabIndex = 0;
             this.BotonAgregar.Text = "  Agregar al carro";
             this.BotonAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -322,24 +287,22 @@ namespace Menu_Restaurante
             // PanelPrincipal
             // 
             this.PanelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelPrincipal.Location = new System.Drawing.Point(287, 78);
-            this.PanelPrincipal.Margin = new System.Windows.Forms.Padding(4);
+            this.PanelPrincipal.Location = new System.Drawing.Point(215, 63);
             this.PanelPrincipal.Name = "PanelPrincipal";
-            this.PanelPrincipal.Size = new System.Drawing.Size(1037, 483);
+            this.PanelPrincipal.Size = new System.Drawing.Size(778, 393);
             this.PanelPrincipal.TabIndex = 5;
             this.PanelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelPrincipal_Paint);
             // 
             // BaseForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1324, 631);
+            this.ClientSize = new System.Drawing.Size(993, 513);
             this.Controls.Add(this.PanelPrincipal);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.PanelSuperior);
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BaseForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -364,7 +327,6 @@ namespace Menu_Restaurante
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button BotonCombos;
-        private System.Windows.Forms.Button BotonRemover;
         private System.Windows.Forms.Button BotonCompletar;
         private System.Windows.Forms.Button BotonAgregar;
         private System.Windows.Forms.Label LbTotal;

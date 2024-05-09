@@ -29,17 +29,18 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VentanaBebidas));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ComboForm = new System.Windows.Forms.DataGridView();
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ruta_Imagen = new System.Windows.Forms.DataGridViewImageColumn();
             this.DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PRECIO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CANTIDAD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SELECCIONAR = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ComboForm)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,26 +62,24 @@
             this.PRECIO,
             this.CANTIDAD,
             this.SELECCIONAR});
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ComboForm.DefaultCellStyle = dataGridViewCellStyle4;
             this.ComboForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ComboForm.Location = new System.Drawing.Point(0, 0);
-            this.ComboForm.Margin = new System.Windows.Forms.Padding(4);
             this.ComboForm.Name = "ComboForm";
             this.ComboForm.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ComboForm.RowHeadersVisible = false;
             this.ComboForm.RowHeadersWidth = 51;
             this.ComboForm.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ComboForm.Size = new System.Drawing.Size(800, 450);
+            this.ComboForm.Size = new System.Drawing.Size(600, 366);
             this.ComboForm.TabIndex = 3;
             this.ComboForm.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ComboForm_CellContentClick);
-            // 
-            // dataGridViewImageColumn1
-            // 
-            this.dataGridViewImageColumn1.DataPropertyName = "Imagen";
-            this.dataGridViewImageColumn1.HeaderText = "IMAGEN";
-            this.dataGridViewImageColumn1.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn1.Image")));
-            this.dataGridViewImageColumn1.MinimumWidth = 6;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            this.dataGridViewImageColumn1.Width = 159;
             // 
             // ID
             // 
@@ -139,13 +138,23 @@
             this.SELECCIONAR.Name = "SELECCIONAR";
             this.SELECCIONAR.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.DataPropertyName = "Imagen";
+            this.dataGridViewImageColumn1.HeaderText = "IMAGEN";
+            this.dataGridViewImageColumn1.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn1.Image")));
+            this.dataGridViewImageColumn1.MinimumWidth = 6;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            this.dataGridViewImageColumn1.Width = 159;
+            // 
             // VentanaBebidas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.ComboForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "VentanaBebidas";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.VentanaBebidas_Load);

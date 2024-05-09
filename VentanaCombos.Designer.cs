@@ -30,10 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VentanaCombos));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ComboForm = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Ruta_Imagen = new System.Windows.Forms.DataGridViewImageColumn();
+            this.DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PRECIO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CANTIDAD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SELECCIONAR = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.restaurantDataSet = new Menu_Restaurante.RestaurantDataSet();
             this.restaurantDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.restaurantDataSetBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
@@ -42,12 +49,6 @@
             this.restaurantDataSetBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.restaurantDataSetBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Ruta_Imagen = new System.Windows.Forms.DataGridViewImageColumn();
-            this.DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PRECIO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CANTIDAD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SELECCIONAR = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ComboForm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.restaurantDataSetBindingSource)).BeginInit();
@@ -75,60 +76,24 @@
             this.PRECIO,
             this.CANTIDAD,
             this.SELECCIONAR});
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.ControlLight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ComboForm.DefaultCellStyle = dataGridViewCellStyle4;
             this.ComboForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ComboForm.Location = new System.Drawing.Point(0, 0);
-            this.ComboForm.Margin = new System.Windows.Forms.Padding(4);
             this.ComboForm.Name = "ComboForm";
             this.ComboForm.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ComboForm.RowHeadersVisible = false;
             this.ComboForm.RowHeadersWidth = 51;
             this.ComboForm.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ComboForm.Size = new System.Drawing.Size(1067, 554);
+            this.ComboForm.Size = new System.Drawing.Size(800, 450);
             this.ComboForm.TabIndex = 0;
             this.ComboForm.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // restaurantDataSet
-            // 
-            this.restaurantDataSet.DataSetName = "RestaurantDataSet";
-            this.restaurantDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // restaurantDataSetBindingSource
-            // 
-            this.restaurantDataSetBindingSource.DataSource = this.restaurantDataSet;
-            this.restaurantDataSetBindingSource.Position = 0;
-            // 
-            // restaurantDataSetBindingSource1
-            // 
-            this.restaurantDataSetBindingSource1.DataSource = this.restaurantDataSet;
-            this.restaurantDataSetBindingSource1.Position = 0;
-            // 
-            // productosBindingSource
-            // 
-            this.productosBindingSource.DataMember = "Productos";
-            this.productosBindingSource.DataSource = this.restaurantDataSetBindingSource;
-            // 
-            // productosTableAdapter
-            // 
-            this.productosTableAdapter.ClearBeforeFill = true;
-            // 
-            // restaurantDataSetBindingSource2
-            // 
-            this.restaurantDataSetBindingSource2.DataSource = this.restaurantDataSet;
-            this.restaurantDataSetBindingSource2.Position = 0;
-            // 
-            // restaurantDataSetBindingSource3
-            // 
-            this.restaurantDataSetBindingSource3.DataSource = this.restaurantDataSet;
-            this.restaurantDataSetBindingSource3.Position = 0;
-            // 
-            // dataGridViewImageColumn1
-            // 
-            this.dataGridViewImageColumn1.DataPropertyName = "Imagen";
-            this.dataGridViewImageColumn1.HeaderText = "IMAGEN";
-            this.dataGridViewImageColumn1.Image = global::Menu_Restaurante.Properties.Resources.hamburguesa;
-            this.dataGridViewImageColumn1.MinimumWidth = 6;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            this.dataGridViewImageColumn1.Width = 213;
             // 
             // ID
             // 
@@ -187,15 +152,57 @@
             this.SELECCIONAR.Name = "SELECCIONAR";
             this.SELECCIONAR.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
+            // restaurantDataSet
+            // 
+            this.restaurantDataSet.DataSetName = "RestaurantDataSet";
+            this.restaurantDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // restaurantDataSetBindingSource
+            // 
+            this.restaurantDataSetBindingSource.DataSource = this.restaurantDataSet;
+            this.restaurantDataSetBindingSource.Position = 0;
+            // 
+            // restaurantDataSetBindingSource1
+            // 
+            this.restaurantDataSetBindingSource1.DataSource = this.restaurantDataSet;
+            this.restaurantDataSetBindingSource1.Position = 0;
+            // 
+            // productosBindingSource
+            // 
+            this.productosBindingSource.DataMember = "Productos";
+            this.productosBindingSource.DataSource = this.restaurantDataSetBindingSource;
+            // 
+            // productosTableAdapter
+            // 
+            this.productosTableAdapter.ClearBeforeFill = true;
+            // 
+            // restaurantDataSetBindingSource2
+            // 
+            this.restaurantDataSetBindingSource2.DataSource = this.restaurantDataSet;
+            this.restaurantDataSetBindingSource2.Position = 0;
+            // 
+            // restaurantDataSetBindingSource3
+            // 
+            this.restaurantDataSetBindingSource3.DataSource = this.restaurantDataSet;
+            this.restaurantDataSetBindingSource3.Position = 0;
+            // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.DataPropertyName = "Imagen";
+            this.dataGridViewImageColumn1.HeaderText = "IMAGEN";
+            this.dataGridViewImageColumn1.Image = global::Menu_Restaurante.Properties.Resources.hamburguesa;
+            this.dataGridViewImageColumn1.MinimumWidth = 6;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            this.dataGridViewImageColumn1.Width = 213;
+            // 
             // VentanaCombos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
             this.Controls.Add(this.ComboForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "VentanaCombos";
             this.Load += new System.EventHandler(this.VentanaCombos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ComboForm)).EndInit();

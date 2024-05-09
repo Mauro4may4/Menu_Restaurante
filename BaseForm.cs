@@ -25,7 +25,7 @@ namespace Menu_Restaurante
         private OleDbConnection oleCon = new OleDbConnection("Provider=SQLOLEDB;Data Source=restaurantssq.database.windows.net;Initial Catalog=Restaurant;Persist Security Info=True;User ID=Toto28;Password=Toto2323;");
         private TicketForm miTicket;
         public DataGridView dataGridView1 = new DataGridView();
-
+        private const string connectionString = @"Data Source = restaurantssq.database.windows.net; Initial Catalog = Restaurant; Persist Security Info = True; User ID = Toto28; Password = Toto2323; TrustServerCertificate = True";
         public BaseForm()
         {
             InitializeComponent();
@@ -271,47 +271,75 @@ namespace Menu_Restaurante
         {
             using (OleDbConnection conex = new OleDbConnection("Provider=SQLOLEDB;Data Source=restaurantssq.database.windows.net;Initial Catalog=Restaurant;Persist Security Info=True;User ID=Toto28;Password=Toto2323;"))
             {
-                conex.Open();
 
-                // Iterar sobre todas las ventanas abiertas
-                foreach (Form form in Application.OpenForms)
+                int totalFilasAgregadas = 0;
+                for (int i = 0; i < dataGridView1.Rows.Count-1; i++)
                 {
-                    // Verificar si el formulario actual tiene un DataGridView
-                    if (form is VentanaComidas && form is ventaPostres && form is VentanaBebidas && form is VentanaCombos)
+                    int id = dataGridView1.Rows[i].Cells[0].Value.ToString() == string.Empty ? 0 : int.Parse((dataGridView1.Rows[i].Cells[0].Value.ToString()));
+                    string descripcion = dataGridView1.Rows[i].Cells[1].Value.ToString();
+                    int cantidad = dataGridView1.Rows[i].Cells[2].Value.ToString() == string.Empty ? 0 : int.Parse((dataGridView1.Rows[i].Cells[0].Value.ToString()));
+                    int precio = dataGridView1.Rows[i].Cells[3].Value.ToString() == string.Empty ? 0 : int.Parse((dataGridView1.Rows[i].Cells[0].Value.ToString()));
+                    
+                    using (SqlConnection connection = new SqlConnection(connectionString))
                     {
-                        DataGridView dataGridView = ((DataGridView)form.Controls["dataGridView1"]);
+                        conex.Open();
+                        SqlCommand verificar = new SqlCommand("Select id from usuario where id=@id", connection);
 
-                        // Verificar si se encuentra el DataGridView en el formulario actual
-                        if (dataGridView != null)
+                        verificar.Parameters.AddWithValue("@id", id);
+                        object filasRegresadas = verificar.ExecuteScalar();
+
+                        if (filasRegresadas == null)
                         {
-                            // Iterar sobre las filas seleccionadas del DataGridView
-                            foreach (DataGridViewRow fila in dataGridView.Rows)
-                            {
-                                // Verificar si la fila está seleccionada
-                                if (fila.Selected)
-                                {
-                                    // Obtener los valores de las celdas de la fila seleccionada
-                                  
-                                    string descripcion = fila.Cells["DESCRIPCION"].Value.ToString();
-                                    double precio = Convert.ToDouble(fila.Cells["PRECIO"].Value);
-                                    int cantidad = Convert.ToInt32(fila.Cells["CANTIDAD"].Value);
-
-                                    // Insertar los valores en la tabla detalles_combo
-                                    string query = "INSERT into detalles_combo (descripcion, Cantidad, Precio) VALUES (@descripcion, @cantidad, @precio)";
-                                    using (OleDbCommand cmd = new OleDbCommand(query, conex))
-                                    {
-                                       
-                                        cmd.Parameters.AddWithValue("@descripcion", descripcion);
-                                        cmd.Parameters.AddWithValue("@cantidad", cantidad);
-                                        cmd.Parameters.AddWithValue("@precio", precio);
-
-                                        cmd.ExecuteNonQuery();
-                                    }
-                                }
-                            }
+                            SqlCommand cmd = new SqlCommand("INSERT into detalles_combo (descripcion, Cantidad, Precio) VALUES (@descripcion, @cantidad, @precio)",connection);
+                            cmd.Parameters.AddWithValue("@descripcion", descripcion);
+                            cmd.Parameters.AddWithValue("@cantidad", cantidad);
+                            cmd.Parameters.AddWithValue("@precio", precio);
+                            int filasAgregadas = cmd.ExecuteNonQuery();
+                            totalFilasAgregadas++;
                         }
                     }
                 }
+                MessageBox.Show($"Filas añadidas:{totalFilasAgregadas}", "Mensaje!!");
+                totalFilasAgregadas = 0;
+                // Iterar sobre todas las ventanas abiertas
+                //foreach (Form form in Application.OpenForms)
+                //{
+                //    // Verificar si el formulario actual tiene un DataGridView
+                //    if (form is VentanaComidas || form is ventaPostres || form is VentanaBebidas || form is VentanaCombos)
+                //    {
+                //        DataGridView dataGridView = ((DataGridView)form.Controls["dataGridView1"]);
+
+                //        // Verificar si se encuentra el DataGridView en el formulario actual
+                //        if (dataGridView != null)
+                //        {
+                //            // Iterar sobre las filas seleccionadas del DataGridView
+                //            foreach (DataGridViewRow fila in dataGridView.Rows)
+                //            {
+                //                // Verificar si la fila está seleccionada
+                //                if (fila.Selected)
+                //                {
+                //                    // Obtener los valores de las celdas de la fila seleccionada
+                                  
+                //                    string descripcion = fila.Cells["DESCRIPCION"].Value.ToString();
+                //                    double precio = Convert.ToDouble(fila.Cells["PRECIO"].Value);
+                //                    int cantidad = Convert.ToInt32(fila.Cells["CANTIDAD"].Value);
+
+                //                    // Insertar los valores en la tabla detalles_combo
+                //                    string query = "INSERT into detalles_combo (descripcion, Cantidad, Precio) VALUES (@descripcion, @cantidad, @precio)";
+                //                    using (OleDbCommand cmd = new OleDbCommand(query, conex))
+                //                    {
+                                       
+                //                        cmd.Parameters.AddWithValue("@descripcion", descripcion);
+                //                        cmd.Parameters.AddWithValue("@cantidad", cantidad);
+                //                        cmd.Parameters.AddWithValue("@precio", precio);
+
+                //                        cmd.ExecuteNonQuery();
+                //                    }
+                //                }
+                //            }
+                //        }
+                //    }
+                //}
 
                 CalculaTotal();
             }

@@ -269,26 +269,6 @@
         RK5CYII=
 </value>
   </data>
-  <data name="BotonRemover.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAAAVwAAAFcASCSrfMAAAAHdElNRQfoBBcUIwnS1z7AAAAA
-        GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAvNJREFUWEfN11nITW0UwPEXmecpc4Yi
-        ilAuSClTGSIKV1JcUSIioWSWQpniu5DChXJBSlxIhFAuRCKJ4jNmyDxk+v9rr9pp7+Ps4z1l1a/3PWuf
-        s87aez/7eZ5TUzAG4wp+5riKIaharIFf9AS3fmPOYxtQlaiDhTiLGWiPjgn/nwaPLUZdVCUaoDmyvsCc
-        x3zPX0VbjMLEDBMwPvlb5JhGw9oloyF24y3e1TJr7kUj5EZ/PEJ6ZNcmB+og5MZMfEPWh2vDD8xGbvTF
-        amyuEmv3w78f9eDIXYt1yd9KxGcnwZplR2ucR9Z9rMQltEHZ0QrOalHgMS7gUyrngLqJ68n/kfc9vvf/
-        VM6T8aTKjqY4iiiwCp1xJpV7hTEYjhdJTufge1cgGjuOZig76mM//LBF5sOInHyme6ML0md7EK4bc/E9
-        yR1A4Sl6G6LochPETkTOBvqgG9INONsZSxG57bCpQuFljwIbTRCbELm8BrbAiKVb/l84FiDu4Q4TxEpE
-        0bwGnGyMrYjcIhNFYxa+wALeey9huqm8BpbA+A++/oqS029eTMZ7WOQIHJgWsmBeAw46B5+TzqEk9wFT
-        UThGwEfNIifRBNPxMcllNeAVc0FzWT+W5F5jJArHADyDRZxYWmAcXNfzGvBsp8B55HSSew43s4WjOx7C
-        ItfgbsZJJ65KVgNv4OTkTHo5yXmsJwpHBzjVWuRu8nogPKO8Bl5iKNrhRpK7DTeuhcPF4yIs4i7JK9IL
-        rgt5DXjL3FX5hfeTnFfij3vBrHDuPoF04U6IwlkN2GgPeMmj0VNw/BQOR3I8SlmXNquBe/DsHcBxqw6j
-        5EY0L9zn74JFHFxj0RKu7XkNuDR7uYfBps3tQaHNSDrWwyI++04mjRGP11PYQFfETtr77Y8Tm43H1fWj
-        4nBatYhcDyx8J3ntLDkPcxBf9gD+OPFLY3e9DBWHZx3T8Wc4B6R3P/GjI157zJkvdk5OTP5mrDjcRu1D
-        TL9F+BkXsRKPYE3NLxWbkZbp+hlRAAAAAElFTkSuQmCC
-</value>
-  </data>
   <data name="BotonCompletar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
