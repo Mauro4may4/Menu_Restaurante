@@ -11,13 +11,13 @@ using System.Windows.Forms;
 
 namespace Menu_Restaurante
 {
-    public partial class VentaComidas : Form
+    public partial class VentanaBebidas : Form
     {
         private SqlDataAdapter da;
         private DataSet ds;
         public string Categoria = "";
-        private DataGridView dataGridView1 = new DataGridView();
-        public VentaComidas()
+        public DataGridView dataGridView1 = new DataGridView();
+        public VentanaBebidas()
         {
             InitializeComponent();
         }
@@ -26,7 +26,7 @@ namespace Menu_Restaurante
         {
             using (SqlConnection conexion = new SqlConnection("Data Source = restaurantssq.database.windows.net; Initial Catalog = Restaurant; Persist Security Info = True; User ID = Toto28; Password = Toto2323; TrustServerCertificate = True"))
             {
-                da = new SqlDataAdapter("select Id_producto, descripcion, precio, Ruta_Imagen from productos where categorias='Bebidas'", conexion);
+                da = new SqlDataAdapter("select Id_producto, descripcion, precio from productos where categorias='Bebidas'", conexion);
                 da.SelectCommand.Parameters.AddWithValue("Bebidas", Categoria);
                 ds = new DataSet();
                 da.Fill(ds);
@@ -42,7 +42,27 @@ namespace Menu_Restaurante
             }
         }
 
-        private void DataGridView1_VisibleChanged(object sender, EventArgs e)
+        private void VentanaBebidas_Load(object sender, EventArgs e)
+        {
+            Poblar();   
+        }
+
+        private void ComboForm_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dataGridView1.Rows.Count > 0)
+            {
+                if (dataGridView1.CurrentRow.Cells["CANTIDAD"].Value != null)
+                {
+                    // Realizar alguna acción si el valor no es nulo
+                }
+                else
+                {
+                    dataGridView1.CurrentRow.Cells["CANTIDAD"].Value = 1;
+                }
+            }
+        }
+
+        private void VentanaBebidas_VisibleChanged(object sender, EventArgs e)
         {
             foreach (DataGridViewRow fila in dataGridView1.Rows)
             {
@@ -56,20 +76,6 @@ namespace Menu_Restaurante
                     {
                         // Hacer algo si hay datos
                     }
-                }
-            }
-        }
-        private void ComboForm_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (dataGridView1.Rows.Count > 0)
-            {
-                if (dataGridView1.CurrentRow.Cells["CANTIDAD"].Value != null)
-                {
-                    // Realizar alguna acción si el valor no es nulo
-                }
-                else
-                {
-                    dataGridView1.CurrentRow.Cells["CANTIDAD"].Value = 1;
                 }
             }
         }

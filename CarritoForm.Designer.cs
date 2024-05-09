@@ -34,11 +34,9 @@
             this.ComboForm2 = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ID_PRODUCTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IMAGEN = new System.Windows.Forms.DataGridViewImageColumn();
             this.DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PRECIO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CANTIDAD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RUTA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ComboForm2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,14 +54,12 @@
             this.ComboForm2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
             this.ID_PRODUCTO,
-            this.IMAGEN,
             this.DESCRIPCION,
             this.PRECIO,
-            this.CANTIDAD,
-            this.RUTA});
+            this.CANTIDAD});
             this.ComboForm2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ComboForm2.Location = new System.Drawing.Point(0, 0);
-            this.ComboForm2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ComboForm2.Margin = new System.Windows.Forms.Padding(4);
             this.ComboForm2.Name = "ComboForm2";
             this.ComboForm2.ReadOnly = true;
             this.ComboForm2.RowHeadersVisible = false;
@@ -72,6 +68,7 @@
             this.ComboForm2.Size = new System.Drawing.Size(1067, 554);
             this.ComboForm2.TabIndex = 1;
             this.ComboForm2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ComboForm_CellContentClick);
+            this.ComboForm2.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.ComboForm2_CellEndEdit);
             // 
             // ID
             // 
@@ -89,14 +86,6 @@
             this.ID_PRODUCTO.MinimumWidth = 6;
             this.ID_PRODUCTO.Name = "ID_PRODUCTO";
             this.ID_PRODUCTO.ReadOnly = true;
-            // 
-            // IMAGEN
-            // 
-            this.IMAGEN.DataPropertyName = "imagen";
-            this.IMAGEN.HeaderText = "IMAGEN";
-            this.IMAGEN.MinimumWidth = 6;
-            this.IMAGEN.Name = "IMAGEN";
-            this.IMAGEN.ReadOnly = true;
             // 
             // DESCRIPCION
             // 
@@ -134,14 +123,6 @@
             this.CANTIDAD.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.CANTIDAD.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // RUTA
-            // 
-            this.RUTA.DataPropertyName = "ruta";
-            this.RUTA.HeaderText = "RUTA";
-            this.RUTA.MinimumWidth = 6;
-            this.RUTA.Name = "RUTA";
-            this.RUTA.ReadOnly = true;
-            // 
             // CarritoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -150,8 +131,10 @@
             this.ControlBox = false;
             this.Controls.Add(this.ComboForm2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CarritoForm";
+            this.Load += new System.EventHandler(this.CarritoForm_Load);
+            this.VisibleChanged += new System.EventHandler(this.CarritoForm_VisibleChanged_1);
             ((System.ComponentModel.ISupportInitialize)(this.ComboForm2)).EndInit();
             this.ResumeLayout(false);
 
@@ -162,10 +145,8 @@
         private System.Windows.Forms.DataGridView ComboForm2;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_PRODUCTO;
-        private System.Windows.Forms.DataGridViewImageColumn IMAGEN;
         private System.Windows.Forms.DataGridViewTextBoxColumn DESCRIPCION;
         private System.Windows.Forms.DataGridViewTextBoxColumn PRECIO;
         private System.Windows.Forms.DataGridViewTextBoxColumn CANTIDAD;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RUTA;
     }
 }

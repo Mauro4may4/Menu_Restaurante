@@ -52,4 +52,7 @@ C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.FormPrincipal
 C:\Users\mauro\Desktop\Menu_Restaurante\obj\Debug\Menu_Restaurante.productoForm.resources
 C:\Users\josue\source\repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.Form1.resources
 C:\Users\josue\source\repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.UserControl1.resources
-C:\Users\josue\source\repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.VentaComidas.resources
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.TicketForm.resources
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.ventaPostres.resources
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.VentanaComidas.resources
+C:\Users\josue\Source\Repos\Menu_Restaurante\obj\Debug\Menu_Restaurante.VentanaBebidas.resources

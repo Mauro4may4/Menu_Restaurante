@@ -65,6 +65,18 @@
       <DependentUpon>CarritoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Categorias.cs" />
+    <Compile Include="VentanaBebidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaBebidas.Designer.cs">
+      <DependentUpon>VentanaBebidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaComidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaComidas.Designer.cs">
+      <DependentUpon>VentanaComidas.cs</DependentUpon>
+    </Compile>
     <Compile Include="conexion.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -96,17 +108,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RestaurantDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="TicketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketForm.Designer.cs">
+      <DependentUpon>TicketForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VentaComidas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VentaComidas.Designer.cs">
-      <DependentUpon>VentaComidas.cs</DependentUpon>
     </Compile>
     <Compile Include="VentanaCombos.cs">
       <SubType>Form</SubType>
@@ -114,11 +126,23 @@
     <Compile Include="VentanaCombos.Designer.cs">
       <DependentUpon>VentanaCombos.cs</DependentUpon>
     </Compile>
+    <Compile Include="ventaPostres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventaPostres.Designer.cs">
+      <DependentUpon>ventaPostres.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CarritoForm.resx">
       <DependentUpon>CarritoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaBebidas.resx">
+      <DependentUpon>VentanaBebidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaComidas.resx">
+      <DependentUpon>VentanaComidas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -139,14 +163,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TicketForm.resx">
+      <DependentUpon>TicketForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VentaComidas.resx">
-      <DependentUpon>VentaComidas.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="VentanaCombos.resx">
       <DependentUpon>VentanaCombos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventaPostres.resx">
+      <DependentUpon>ventaPostres.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
